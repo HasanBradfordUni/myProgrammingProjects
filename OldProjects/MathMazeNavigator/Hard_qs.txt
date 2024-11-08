@@ -1,0 +1,12 @@
+1. What is W when t = 0 if W = 120 - 100e^-kt?,W = 20,W = 120,W = 100,W = -100
+2. What is the evaluation of log4 + 2log5?,log100 = 2,2log9 = 1.91,log4 + log5 = 0.954,log29 = 1.46
+3. Where does the graph y = (2x^2 - 5x + 2)e^-x cross the y-axis?,y = 2,y = 2e,y = -2,y = -2e
+4. What is the y-coordinate where y = 2^x + 3 and x = 1?,y = 5,y = 2,y = 3,y = 4
+5. What is x in the equation: 2log[base 2]x - log[base 2]sqrt(x) = 3?,x = 4,x = 3/2,x = 9,x = 3
+6. What is the value of tanx if 5sinx = 2cosx?,tanx = 2/5,tanx = 5/2,tanx = 5,tanx = 2
+7. What is cosa if tana = 2/5 and a is acute?,cosa = 5/sqrt(29),cosa = 2/5,cosa = 5/2,cosa = 2/sqrt(29)
+8. What is the value of b if sinA = (x+1)/2 and cos2A = (4-y)/3 where y = 1/2(ax^2 + bx + c)?,b = 6,b = 2,b = 3,b = 5
+9. What is x in the equation: 3sin(2x+20)sec(x+10) + 4sin(2x+20)cosec(x+10) = 3 if 3sin2ysecy + 4sin2ycosecy = 10sin(y+53.1)?,x = 99.4 and x = 314.4,x = 17.5 and x = 162.5,x = 162.5 and x = 377.5,x = -45.6 and x = 99.4
+10. What is m if tanx = m and 4tany = 8m + 5 give that 16sec^2(x) + 16sec^2(y) = 537?,m = 2 or m = -3,m = 10 or m = 53.7,m = sqrt(6) or m = -sqrt(6),m = -2 or m = 3
+11. What are the coordinates of R if P has coordinates x = -9 and y = 8 and lies on the circle (x-3)^2 + (y+1)^2 = 225 and length of PR is 20?,x = 10 and y = 2,x = 7 and y = -3,x = 2 and y = 10,x = 1 and y = -2
+12. What is the centre and radius of the circle with equation: x^2 + y^2 + 6x - 8y = 231?,centre: x = -3 and y = 4 radius: 16,centre: x = 3 and y = -4 radius: 16,centre: x = 6 and y = -8 radius: sqrt(231),centre: x = -6 and y = 8 radius: sqrt(231)  

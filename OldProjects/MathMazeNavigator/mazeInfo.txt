@@ -1,0 +1,15 @@
+[False, 'None', False, False, False, False, False, False, False, False]
+[False, True, True, True, True, True, False, True, True, False]
+[False, False, False, False, False, True, True, True, False, False]
+[False, True, True, True, False, False, False, True, True, False]
+[False, True, False, True, True, True, True, True, False, False]
+[False, False, False, False, True, False, False, True, True, False]
+[False, False, True, False, False, False, False, True, False, False]
+[False, True, True, False, False, True, True, True, False, False]
+[False, False, True, True, True, True, False, True, True, False]
+[False, False, False, False, False, False, False, False, 'None', False]
+-10
+2
+24
+142
+[1, 1]

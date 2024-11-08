@@ -1,0 +1,11 @@
+GK: Can move 1 square in any direction
+CB: Can move 1 square directly forward or any number of squares backwards (diagonally as well)
+LB: Can move 1 square forward (diagonally left) or any numbers of squares backwards (diagonally)
+RB: Can move 1 square forward (diagonally right) or any numbers of squares backwards (diagonally)
+CDM: Can move left or right (1 or 2 squares) or any number of squares backwards (diagonally as well)
+CM: Can move up to 3 squares in any direction
+CAM: Can move left or right (1 or 2 squares) or any number of squares forwards (diagonally as well)
+LW: Can move 1 square backward (diagonally) or any numbers of squares forwards (diagonally)
+RW: Can move 1 square backward (diagonally) or any numbers of squares forwards (diagonally)
+ST: Can move any number of squares in any direction
+CAP: The captain piece which can teleport anywhere on the grid (only available in ARCADE mode)

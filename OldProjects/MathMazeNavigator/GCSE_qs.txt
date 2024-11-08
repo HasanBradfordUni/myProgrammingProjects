@@ -1,0 +1,20 @@
+1. Find y where x and y are co-interior angles and x is 35 degrees?,55 degrees,145 degrees,35 degrees,65 degrees
+2. Find b where a and b are alternate angles and a is 50 degrees?,50 degrees,35 degrees,65 degrees,30 degrees
+3. Find c where a and c are corresponding angles and a is 81 degrees?,81 degrees,9 degrees,50 degrees,32 degrees
+4. Find the shortest side of a right-angle triangle with side lengths 17cm and 15cm respectively?,8 cm,10cm,sqrt(51) cm,7 cm
+5. Find the y-intercept of the graph: -2(x +7)?,y = -14,y = 14,y = 7,y = -7
+6. Find the turning point of the graph: x^2-2x+1?,x = 1 and y = 0,x = 2 and y = 1,x = -1 and y = 2,x = 1 and y = 1
+7. Find the y-intercept of the graph: x^2-3x+69?,y = 69,y = 72,y = -3,y = 1
+8. Find the x co-ordinate of the turning point and the y-intercept of the graph: x^2+6x+8?,x = -3 and y = 8,x = 3 and y = -8,x = -3 and y = -8,x = 3 and y = 8
+9. Find the x co-ordinate of A on the graph of  y = cos x where x is measured in degrees and y = 0?,x = 90,x = 45,x = 180,x = 0
+10. Find the x co-ordinate of B on the graph of  y = sin x where x is measured in degrees and y = 1?,x = 90,x = 45,x = 180,x = 0
+11. Find the x co-ordinate of C on the graph of  y = sin x where x is measured in degrees and y = -1?,x = 270,x = -45,x = 180,x = -180
+12. Find the x co-ordinate of B on the graph of  y = cos x where x is measured in degrees and y = 1?,x = 0,x = 45,x = 90,x = -90
+13. What is k if y = kx and so that y = 3 when x = 1?,k = 3,k = 4,k = 1.5,k = 2
+14. What is k if a = k/b and so that a = 4 when b = 3.2?,k = 12.8,k = 4,k = 0.8,k = 12
+15. What is k if a = kb^2 and so that a = 10 when b = 2?,k = 2.5,k = 20,k = 5,k = 40
+16. What is k if y = k/x^2 and so that y = 22 when x = 4?,k = 352,k = 1.375,k = 88,k = 5.5
+17. What is x if x is the probability of a spinner landing on blue and the probability for red, green and yellow are 0.25, 0.15 and 2x respectively?,x = 0.2,x = 0.3, x = 0.25,x = 0.6
+18. What is the probability of neither C nor D if P(C) = 0.3 and P(D) = 0.35 where C and D are mutually exclusive?,P(neither C nor D) = 0.35,P(neither C nor D) = 0.55,P(neither C nor D) = 0.3,P(neither C nor D) = 0.65
+19. What is P(R') if P(C) = 32 and P(R and C) = 24 and P(R) = 43 and P(R' and C') = 19?,P(R') = 27,P(R') = 19,P(R') = 51,P(R') = 70
+20. What is the experimental probability if n = 200 and the theoretical probability is 0.13?,P = 26,P = 52,P = 200,P = 1538

@@ -1,0 +1,12 @@
+1. What is the x-coordinate of the point where x = 2 in f(x) in the transformed function f(2x+3)?,x = -2,x = -1/2,x = 2,x = 7
+2. What is the x-coordinate of the point where the curve y = (x+1)(x+3)^2 touches the x-axis?,x = -3,x = -1,x = 1,x = 3
+3. What is fg(1) if f(x) is 2|x| + 3 and g(x) is 3 - 4x?,fg(1) = 5,fg(1) = -1,fg(1) = -5,fg(1) = -17
+4. What is f^-1 if f(x) is e^2x + k^2?,f^-1 = ln(x-k^2)/2,f^-1 = ln(x-k^2),f^-1 = ln(x+k^2),f^-1 = ln(x+k^2)/2
+5. What is the maximum value of S and the value of x that gives this maximum where S = 90x - pi*x^2?,x = 14.32 and S = 645,x = 4.32 and S = 330,x = 6.28 and S = 441,x = 3.14 and S = 252
+6. For what values of x is y = 150x - 2x^3 an increasing function?,-5 < x < 5,x > 5 and x < -5,x = -5 and x = 5,x > -6 and x < 6
+7. What is dy/dx for the equation: y = e^2x*tanx?,dy/dx = e^2x(sec^2(x)+2tanx),dy/dx = e^2x*tanx,dy/dx = e^2x*sec^2(x)-2e^2x*tanx,dy/dx = e^2x(secx-2tanx)
+8. What is dy/dx at the point t = 2 where x = 4t + 3 and y = 4t + 8 + 5/2t?,dy/dx = 27/32,dy/dx = 3/8,dy/dx = 8/3,dy/dx = 11/16
+9. What is f(x) if f'(x) = 8x^3 + 4?,f(x) = 2x^4 + 4x + c,f(x) = 24x,f(x) = 24x^2 + c,f(x) = 2x^4 + 4x
+10. What is area between the curve y = 1/2 + sin3x and the x-axis in the interval 0 <= x < 11/18 pi where it crosses the x-axis at 7/18 pi?,area = 1.46,area = 1.13,area = 0.900,area = 0.329
+11. What is f(x) if f'(x) = 10(2x + 1)^-1?,f(x) = 5ln|2x+1| + c,f(x) = 10ln|2x+1| + c,f(x) = 5ln(2x+1),f(x) = 5ln|2x+1|
+12. What is f(x) in the interval 5 < x < 7 if f'(x) = 1/3(x-1) - 1/3(x-4) + 4(x-4)^2?,f(x) = 2.436,f(x) = 2.438,f(x) = -1.102,f(x) = 3.538

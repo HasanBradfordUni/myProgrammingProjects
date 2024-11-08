@@ -1,0 +1,15 @@
+1. What is the equation of a quadratic graph with x-intercepts 2 & 4 and y-intercept -40?,y = -5x^2 + 30x - 40,y = 5x^2 + 30x - 40,y = x^2 - 6x - 40,y = x^2 + 6x - 40
+2. What are 2 of the solutions to: y = x^4 - 7x^2 + 10?,x = -sqrt(5) and x = sqrt(2),x = 5 and x = sqrt(2),x = -25 and x = -2,x = -sqrt(5) and x = 4
+3. What is the equation of the quadratic graph with turning point: x = -5 and y = -5?,y = -(x + 5)^2 - 5,y = -(x - 5)^2 - 5,y = -(x + 5)^2 + 5,y = -(x - 5)^2 + 5
+4. What are the x-intercepts of the graph: y = 5x^2 + 17x - 12?,x = -4 and x = 0.6,x = 4 and x = -0.6,x = -4 and x = 3,x = 4 and x = -3
+5. What is the third term in the binomial expansion: (2 - 3x)^4?,3rd term = 216x^2,3rd term = -216x^2,3rd term = 216x^3,3rd term = -216
+6. What is the last term in the binomial expansion: (3 + 2y)^4?,Last term = 16y^4,Last term = -16y^2,Last term = 16y^2,Last term = 81
+7. What is the second term in the binomial expansion: (2h-1)^5?,2nd term = -80h^4,2nd term = 80h,2nd term = -16h^4,2nd term = 16h^4
+8. What is A if a term is 2160x^2 in the binomial expansion: (3x + A)^6?,A = 2,A = -2,A = 3,A = -4
+9. What is the angle between the vector -9i - 2j and the positive y-axis?,102.5 degrees anti-clockwise,12.5 degrees clockwise,102.5 degrees clockwise,62.5 degrees anti-clockwise
+10. What is the magnitude of the 2 vectors: (3i + 5j)m and (-6i + 7j)m?,Magnitude = 12.4m,Magnitude = 5.8m,Magnitude = 9.2m,Magnitude = 15.1m
+11. What is x - y if x is the vector (8i - 4j) and y is the vector (-8i + 4j)?,Resultant vector = 16i - 8j,Resultant vector = -16i - 8j,Resultant vector = 16i + 8j,Resultant vector = 0i - 0j
+12. What is the resultant vector if 7i + 5j is scaled by a factor of 2.3?,Resultant vector = 16.1i + 11.5j,Resultant vector = 16i - 8j,Resultant vector = 16.1i - 11.5j,Resultant vector = 14i + 10j
+13. Expand and simplify: (3x+5)^2 - (2x-2)^2?,Expansion = 5x^2 + 38x + 21,Expansion = 9x^2 + 30x + 25,Expansion = 4x^2 - 8x + 4,Expansion = 5x^2 + 22x + 29
+14. Write (3^7)^4 in the form 3^k where k is an integer to be found?,k = 28 so 3^28,k = 4 so 3^4,k = 11 so 3^11,k = 7 so 3^7
+15. Rationalise the algebraic fraction: (3a + 5)/(2a + sqrt(7))?,(6a^2 + (10 -  3sqrt(7))a - 5sqrt(7))/(4a^2-7),(6a^2 + (10 + 3sqrt(7))a + 5sqrt(7))/(4a^2+7),(-6a^2 - (10 - 3sqrt(7))a + 5sqrt(7))/(7-4a^2),(-6a^2 + (10 - 3sqrt(7))a + 5sqrt(7))/(7 + 4a^2)

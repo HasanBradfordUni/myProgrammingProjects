@@ -1,0 +1,32 @@
+INPUT hours worked
+MULTIPLY hours worked by rate of pay
+OUTPUT pay
+
+SET hours worked to 40
+
+IF error found
+    THEN OUTPUT "Error"
+ELSE OUTPUT "All Fine"
+
+SELECT VALUE errorNumber
+    1: OUTPUT "Error Number 1"
+    3: OUTPUT "Error Number 3"
+    5: OUTPUT "That's a bad miss"
+END SELECT
+
+FOR EACH employee
+    INPUT hours worked
+    MULTIPLY hours worked by rate of pay
+    OUTPUT pay
+
+REPEAT UNTIL no more employee records
+    READ next employee record
+    READ hours worked
+    READ pay rate
+    MULTIPLY pay rate by hours worked
+
+DO WHILE more employee records to process
+    READ next employee record
+    READ hours worked
+    READ pay rate
+    MULTIPLY pay rate by hours worked

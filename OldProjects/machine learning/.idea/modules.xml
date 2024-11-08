@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AIpoweredCodeTranslator/.idea/AIpoweredCodeTranslator.iml" filepath="$PROJECT_DIR$/../AIpoweredCodeTranslator/.idea/AIpoweredCodeTranslator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/machine learning.iml" filepath="$PROJECT_DIR$/.idea/machine learning.iml" />
+      <module fileurl="file://$USER_HOME$/OneDrive - University of Bradford/Documents/Python_Files/GeneralPurposeAI/.idea/pythonProject.iml" filepath="$USER_HOME$/OneDrive - University of Bradford/Documents/Python_Files/GeneralPurposeAI/.idea/pythonProject.iml" />
+    </modules>
+  </component>
+</project>

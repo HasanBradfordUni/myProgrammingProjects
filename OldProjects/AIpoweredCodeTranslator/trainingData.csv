@@ -1,0 +1,30 @@
+id;code;python
+1;Add two numbers: multiply the first number by 2 and add the second number;def add_two_numbers(num1; num2):\n\tresult =(num1 * 2) + num2\n\treturn result\n
+2;Check if a given string contains the word ‘apple’;def contains_apple(input_string):\n\treturn 'apple' in input_string\n
+3;Find the maximum value in a list of numbers;def find_max_value(numbers):\n\treturn max(numbers)\n
+4;Calculate the area of a rectangle with width 5 and height 8;def calculate_rectangle_area(width; height):\n\treturn width * height\n
+5;Create a dictionary with keys ‘name’, ‘age’, and ‘city’. Assign values ‘John’, 30, and ‘New York’ respectively;def create_person_info():\n\tperson_info = {'name': 'John','age': 30,'city': 'New York'}\n\treturn person_info\n
+6;Count the number of vowels in a given string;def count_vowels(input_string):\n\tvowels = 'aeiouAEIOU'\n\treturn sum(1 for char in input_string if char in vowels)\n
+7;Reverse a list of integers;def reverse_list(numbers):\n\treturn numbers[::-1]\n
+8;Check if a given year is a leap year;def is_leap_year(year):\n\treturn (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)\n
+9;Calculate the factorial of a non-negative integer;def factorial(n):\n\tif n == 0:\n\t\treturn 1\n\telse:\n\t\treturn n * factorial(n - 1)\n
+10;Find the common elements between two lists;def find_common_elements(list1, list2):\n\treturn list(set(list1) & set(list2))\n
+11;Calculate the average of a list of numbers;\ndef calculate_average(numbers):\n\treturn sum(numbers) / len(numbers)\n
+12;Check if a given string is a palindrome;\ndef is_palindrome(input_string):\n\tcleaned_string = input_string.lower().replace(' ', '')\n\treturn cleaned_string == cleaned_string[::-1]\n
+13;Convert a temperature in Celsius to Fahrenheit;\ndef celsius_to_fahrenheit(celsius):\n\treturn (celsius * 9/5) + 32\n
+14;Find the second largest element in a list;\ndef find_second_largest(numbers):\n\tsorted_numbers = sorted(numbers)\n\treturn sorted_numbers[-2]\n
+15;Remove duplicates from a list;\ndef remove_duplicates(input_list):\n\treturn list(set(input_list))\n
+16;Calculate the average of a list of numbers;def calculate_average(numbers):\n\treturn sum(numbers) / len(numbers)\n
+17;Check if a given string is a palindrome;def is_palindrome(input_string):\n\tcleaned_string = input_string.lower().replace(' ', '')\n\treturn cleaned_string == cleaned_string[::-1]\n
+18;Convert a temperature in Celsius to Fahrenheit;def celsius_to_fahrenheit(celsius):\n\treturn (celsius * 9/5) + 32\n
+19;Find the second largest element in a list;def find_second_largest(numbers):\n\tsorted_numbers = sorted(numbers)\n\treturn sorted_numbers[-2]\n
+20;Remove duplicates from a list;def remove_duplicates(input_list):\n\treturn list(set(input_list))\n
+    
+
+
+
+
+
+
+
+
