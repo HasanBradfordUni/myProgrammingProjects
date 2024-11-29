@@ -1,0 +1,51 @@
+@options
+@packages
+-classpath
+'C:/Users/fifau/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar;C:/Users/fifau/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar;C:/Users/fifau/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar;C:/Users/fifau/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/fifau/OneDrive - University of Bradford/Documents/Software Design and Development/CW/Bcs/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/fifau/OneDrive - University of Bradford/Documents/Software Design and Development/CW/Bcs/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Bcs 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Bcs 1.0-SNAPSHOT API'
+bradford.ac.uk.bcs
+C:\Users\fifau\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar = 1710070887593
+C:\Users\fifau\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar = 1710070887558
+C:\Users\fifau\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar = 1710070887604
+C:\Users\fifau\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1710070887599
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\src\main\java = 1710070416175
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\allclasses-index.html = 1710272936119
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\allpackages-index.html = 1710272936129
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\copy.svg = 1710272936191
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\element-list = 1710272936038
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\help-doc.html = 1710272936180
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\index-all.html = 1710272936163
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\index.html = 1710272936172
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\link.svg = 1710272936194
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\member-search-index.js = 1710272936139
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\module-search-index.js = 1710272936132
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\overview-tree.html = 1710272936099
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\package-search-index.js = 1710272936134
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\script.js = 1710272936189
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\search-page.js = 1710272936203
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\search.html = 1710272936169
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\search.js = 1710272936199
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\stylesheet.css = 1710272936186
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\tag-search-index.js = 1710272936141
+C:\Users\fifau\OneDrive - University of Bradford\Documents\Software Design and Development\CW\Bcs\target\site\apidocs\type-search-index.js = 1710272936136

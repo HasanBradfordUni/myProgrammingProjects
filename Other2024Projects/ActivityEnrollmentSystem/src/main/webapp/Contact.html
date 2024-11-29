@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add a linear gradient background to the body */
+        body {
+            height: 2000px; /* Adjust this value as needed */
+            background: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-blend-mode: color-dodge;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            background-color: black;
+            overflow: hidden;;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Style the navigation links */
+        .navbar button {
+        padding: 10px 15px; /* Add padding to the button */
+        background-color: #000000; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+    .navbar button:hover {
+        background-color: #ddd; /* Change background color when hovered */
+        cursor: pointer; /* Change cursor to pointer when hovered */
+    }
+
+        /* Add styles for the buttons */
+        button {
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: #4CAF50; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+        /* Add hover styles for the buttons */
+        button:hover {
+            background-color: #ddd; /* Change background color when hovered */
+            cursor: pointer; /* Change cursor to pointer when hovered */
+        }
+
+        /* Style the welcome section */
+        .contactwelcome {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .contactwelcome pre {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            text-align: left;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            transition: transform 0.1s ease-out;
+            color: white;
+        }
+
+        .contactgroups {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            
+        }
+
+        .box {
+        background-color: white;
+        border-radius: 10px;
+        width: 30%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        }
+
+        .box pre {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            text-align: left;
+        }
+        
+        .box h1 {
+            font-size: 23px;
+            font-family: Arial, sans-serif;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='About.html'">About</button>
+        <button onclick="location.href='Contact.html'">Contact</button>
+        <button onclick="location.href='Activity_Groups.html'">Activity Groups</button>
+        <button onclick="location.href='Login.html'">Login</button>
+    </div>
+
+    <!-- Welcome section -->
+    <section class="contactwelcome">
+        <h1></h1>
+        <p>
+            The university department involved in the organising of societies and extracurricular activities
+            can be contacted through the following details.
+
+            Email: <a href="mailto:ubu@bradford.ac.uk">ubu@bradford.ac.uk</a>
+            Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm
+            Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP
+            Socials:
+
+        </p>
+    </section>
+
+    <div class="contactgroups">
+        <div class="box">
+            <h1>Pisoc Society</h1>
+            <p>
+                Email: <a href="mailto:pisoc@bradford.ac.uk">pisoc@bradford.ac.uk</a>
+                Tel: 01274 123004
+                Based: Section 6B, Univeristy of Bradford Union, Student Central, University of Bradford, 
+                Richmond Road, Bradford, West Yorkshire, BD7 1DP
+                Socials:
+            </p>
+        </div>
+        <div class="box">
+            <h1>Football Society</h1>
+            <p>
+                Email: <a href="mailto:football@bradford.ac.uk">football@bradford.ac.uk</a>
+                Tel: 01274 420138
+                Based: Section 1D, Univeristy of Bradford Union, Student Central, University of Bradford, 
+                Richmond Road, Bradford, West Yorkshire, BD7 1DP
+                Socials:
+
+            </p>
+        </div>
+        <div class="box">
+            <h1>Swimming Society</h1>
+            <p>
+                Email: <a href="mailto:swimming@bradford.ac.uk">swimming@bradford.ac.uk</a>
+                Tel: 01274 149870
+                Based: Section 4A, Univeristy of Bradford Union, Student Central, University of Bradford,
+                Richmond Road, Bradford, West Yorkshire, BD7 1DP
+                Socials:
+
+            </p>
+        </div>
+
+    </div>
+
+    
+
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <p>Contact us</p>
+        <p>Email: ubu@bradford.ac.uk</p>
+        <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+        <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+        <p>&copy; 2022 Our University</p>
+        
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            var footer = document.getElementById('footer');
+            if (window.pageYOffset < document.body.scrollHeight - window.innerHeight) {
+                footer.style.transform = 'translateY(100%)';
+            } else {
+                footer.style.transform = 'translateY(0)';
+            }
+        };
+        </script>
+
+</body>
+</html>

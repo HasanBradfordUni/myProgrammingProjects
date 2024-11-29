@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"bradford.ac.uk.bcs","l":"NewMain"},{"p":"bradford.ac.uk.bcs","l":"YearlyOfficers"}];updateSearchResults();

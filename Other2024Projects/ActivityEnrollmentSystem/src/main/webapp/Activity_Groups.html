@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add a linear gradient background to the body */
+        body {
+            height: 2000px; /* Adjust this value as needed */
+            background: white;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-blend-mode: color-dodge;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            background-color: black;
+            overflow: hidden;;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Style the navigation links */
+        .navbar button {
+        padding: 10px 15px; /* Add padding to the button */
+        background-color: #000000; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+    .navbar button:hover {
+        background-color: #ddd; /* Change background color when hovered */
+        cursor: pointer; /* Change cursor to pointer when hovered */
+    }
+
+        /* Add styles for the buttons */
+        button {
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: #4CAF50; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+        /* Add hover styles for the buttons */
+        button:hover {
+            background-color: #ddd; /* Change background color when hovered */
+            cursor: pointer; /* Change cursor to pointer when hovered */
+        }
+
+        /* Style the welcome section */
+        .welcome {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the news section */
+        .news {
+            padding: 20px;
+        }
+
+        /* Style the news articles */
+        .news article {
+            margin-bottom: 20px;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            transition: transform 0.1s ease-out;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='About.html'">About</button>
+        <button onclick="location.href='Contact.html'">Contact</button>
+        <button onclick="location.href='Activity_Groups.html'">Activity Groups</button>
+        <button onclick="location.href='Login.html'">Login</button>
+    </div>
+
+    <!-- Welcome section -->
+    <section class="welcome">
+        <h1>Welcome to Our University</h1>
+        <p>Our university offers world-class education and research opportunities.</p>
+    </section>
+
+    <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+        <div>
+            <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/02/100_computing_banner_desktop.jpg" alt="Image 1" style="width: 200px; height: 135px;">
+            <p>Pisoc Society</p>
+            <button onclick="location.href='learn_more_Pisoc.html'">Learn more</button>
+        </div>
+        <div>
+            <img src="https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/6235ea7fbaf601e8d3980228_boy-kicking-ball-on-football-field-2021-09-24-03-47-56-utc-min-min.jpg" alt="Image 2" style="width: 200px; max-height: 200px;">
+            <p>Football Society</p>
+            <button onclick="location.href='learn_more_Football.html'">Learn more</button>
+        </div>
+        <div>
+            <img src="https://www.truro-penwith.ac.uk/app/uploads/2023/01/Netball-Academy-2.jpg" alt="Image 3" style="width: 200px; max-height: 200px;">
+            <p>Netball Society</p>
+            <button onclick="location.href='learn_more_Netball.html'">Learn more</button>
+        </div>
+        <div>
+            <img src="https://hips.hearstapps.com/hmg-prod/images/female-swimmer-at-the-swimming-pool-royalty-free-image-1568376387.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=2048:*" alt="Image 4" style="width: 200px; max-height: 135px;">
+            <p>Swimming Society</p>
+            <button onclick="location.href='learn_more_Swimming.html'">Learn more</button>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Darts_in_a_dartboard.jpg" alt="Image 1" style="width: 200px; height: 135px;">
+            <p>Darts Society</p>
+            <button onclick="location.href='learn_more_Darts.html'">Learn more</button>
+        </div>
+        <div>
+            <img src="https://imageio.forbes.com/specials-images/imageserve/61290485e59b1a3c399d34e7/0x0.jpg?format=jpg&crop=2699,1519,x0,y0,safe&height=900&width=1600&fit=bounds" alt="Image 2" style="width: 200px; height: 135px;">
+            <p>Tennis Society</p>
+            <button onclick="location.href='learn_more_Tennis.html'">Learn more</button>
+        </div>
+        <div>
+            <img src="https://static.ffx.io/images/$zoom_0.099%2C$multiply_0.7725%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_2/t_crop_custom/q_86%2Cf_auto/62e04e006fe36928c4231033f9daf717688bdc56" alt="Image 3" style="width: 200px; max-height: 200px;">
+            <p>Basketball Society</p>
+            <button onclick="location.href='learn_more_Basketball.html'">Learn more</button>
+        </div>
+        <div>
+            <img src="https://images.squarespace-cdn.com/content/v1/5e9e0dfba94cde48f0501a9c/81b3c8b5-e650-4a70-a02d-2d5c0f555fb2/Bowling_Pins.jpg" alt="Image 4" style="width: 200px; height: 133px;">
+            <p>Bowling Society</p>
+            <button onclick="location.href='learn_more_Bowling.html'">Learn more</button>
+        </div>
+
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <p>Contact us</p>
+        <p>Email: ubu@bradford.ac.uk</p>
+        <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+        <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+        <p>&copy; 2022 Our University</p>
+        
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            var footer = document.getElementById('footer');
+            if (window.pageYOffset < document.body.scrollHeight - window.innerHeight) {
+                footer.style.transform = 'translateY(100%)';
+            } else {
+                footer.style.transform = 'translateY(0)';
+            }
+        };
+        </script>
+
+</body>
+</html>

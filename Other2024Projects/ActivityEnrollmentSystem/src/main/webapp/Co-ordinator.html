@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Add a linear gradient background to the body */
+            body {
+                height: 2000px; /* Adjust this value as needed */
+                background: white;
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            /* Style the navigation bar */
+            .navbar {
+                background-color: black;
+                overflow: hidden;
+                ;
+                color: white;
+                padding: 20px;
+                width: 100%; /* Make the navigation bar span the full width of the screen */
+                position: static; /* Make the navigation bar stay at the top of the screen */
+                top: 0; /* Position the navigation bar at the top of the screen */
+                left: 0; /* Position the navigation bar at the left of the screen */
+            }
+
+            /* Style the navigation links */
+            .navbar button {
+                padding: 10px 15px; /* Add padding to the button */
+                background-color: #000000; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+                transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            }
+
+            .navbar button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+                color: #303030
+            }
+
+
+            /* Add styles for the buttons */
+            button {
+                padding: 10px 20px; /* Add padding to the button */
+                background-color: #4CAF50; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+            }
+
+            /* Add hover styles for the buttons */
+            button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+            }
+
+            /* Style the welcome section */
+            .welcome {
+                background-color: black;
+                color: white;
+                padding: 20px;
+                width: 100%;
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .welcome h3 {
+                font-size: 30px;
+            }
+
+            /* Style the footer */
+            .footer {
+                background-color: black;
+                text-align: center;
+                padding: 10px;
+                width: 100%;
+                transition: transform 0.2s ease-out;
+                color: white;
+                margin-top: auto;
+            }
+
+            .box {
+                background-color: white;
+                border-radius: 10px;
+                padding: 20px;
+                box-sizing: border-box;
+                text-align: center;
+                width: 250px;
+                margin: 10px;
+            }
+
+            table {
+                width: 100%;
+                text-align: left;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            table th, table td {
+                padding: 10px;
+            }
+
+            table img {
+                width: 100px; /* Increase the width of the images */
+                height: auto;
+            }
+
+            .highlight {
+                background-color: rgb(129, 129, 129);
+            }
+
+            .select-button {
+                background-color: #0012af; /* Green */
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer;
+            }
+
+            .select-button:hover {
+                background-color: #0051ff;
+            }
+
+            .buttoncontrols {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-bottom: 20px;
+            }
+
+            .buttoncontrols button {
+                background-color: #0012af; /* Green */
+            }
+
+            .buttoncontrols button:hover {
+                background-color: #0051ff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <div class="navbar">
+                <button onclick="location.href = 'index.html'">Home</button>
+                <button onclick="location.href = 'About.html'">About</button>
+                <button onclick="location.href = 'Contact.html'">Contact</button>
+                <button onclick="location.href = 'Activity_Groups.html'">Activity Groups</button>
+                <button onclick="location.href = 'Login.html'">Login</button>
+            </div>
+
+        </header>
+
+        <!-- Welcome section -->
+        <section class="welcome">
+            <h3>Welcome Activity Co-ordinator </h3>
+            <p>Here you will find all the admin controls to manage activity groups and more</p>
+        </section>
+
+        <div class="buttoncontrols">
+            <button onclick="addActivity()">Add Activity</button>
+            <button onclick="sortActivities()">Sort(Lowest to Highest)</button>
+            <button onclick="filterActivities()">Filter(Less than 3 members)</button>
+            <button onclick="removeGroups()">Remove selected groups</button>
+            <button>Undo</button>
+            <button>Redo</button>
+        </div>
+
+        Activity: <input id="activityName" placeholder="Enter name for new activity">
+
+        <table id="groupsTable">
+            <!-- Table headers -->
+            <tr>
+                <th>Group Name</th>
+                <th>Members Count</th>
+                <th>Select</th>
+            </tr>
+            <!-- Table rows -->
+            <tr id="row1">
+                <td class="groupName">Pisoc</td>
+                <td class="memberCount">19</td>
+                <td><button class="select-button" onclick="highlightRow('row1')">Select Activity</button></td>
+            </tr>
+            <tr id="row2">
+                <td class="groupName">Football</td>
+                <td class="memberCount">34</td>
+                <td><button class="select-button" onclick="highlightRow('row2')">Select Activity</button></td>
+            </tr>
+            <tr id="row3">
+                <td class="groupName">Netball</td>
+                <td class="memberCount">22</td>
+                <td><button class="select-button" onclick="highlightRow('row3')">Select Activity</button></td>
+            </tr>
+            <tr id="row4">
+                <td class="groupName">Darts</td>
+                <td class="memberCount">12</td>
+                <td><button class="select-button" onclick="highlightRow('row4')">Select Activity</button></td>
+            </tr>
+            <tr id="row5"> 
+                <td class="groupName">Basketball</td>
+                <td class="memberCount">18</td>
+                <td><button class="select-button" onclick="highlightRow('row5')">Select Activity</button></td>
+            </tr>
+            <tr id="row6">
+                <td class="groupName">Tennis</td>
+                <td class="memberCount">14</td>
+                <td><button class="select-button" onclick="highlightRow('row6')">Select Activity</button></td>
+            </tr>
+            <tr id="row7">
+                <td class="groupName">Bowling</td>
+                <td class="memberCount">21</td>
+                <td><button class="select-button" onclick="highlightRow('row7')">Select Activity</button></td>
+            </tr>
+            <tr id="row8">
+                <td class="groupName">Swimming</td>
+                <td class="memberCount">23</td>
+                <td><button class="select-button" onclick="highlightRow('row8')">Select Activity</button></td>
+            </tr>
+        </table>
+
+        <!-- Footer -->
+        <div id="footer" class="footer">
+            <p>Contact us</p>
+            <p>Email: ubu@bradford.ac.uk</p>
+            <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+            <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+            <p>University of Bradford 2024</p>
+
+        </div>
+
+        <script>
+            // Highlight the selected row
+            function highlightRow(rowId) {
+                // Remove the 'highlight' class from all rows
+                var row = document.getElementById(rowId);
+
+                // Check if the row is already highlighted
+                if (row.classList.contains('highlight')) {
+                    // If it is, remove the highlight
+                    row.classList.remove('highlight');
+                } else {
+                    // If it's not, add the highlight
+                    row.classList.add('highlight');
+                }
+            }
+
+
+
+            function addActivity() {
+                var activityName = document.getElementById("activityName").value;
+                const params = new URLSearchParams();
+                try {
+                    params.append('activityGroupName', activityName);
+                    const url = '/ActivityEnrollmentSystem/addActivityServlet?' + params.toString();
+                    fetch(url)
+                            .then(response => response.text())
+                            .then(data => {
+                                var parser = new DOMParser();
+                                var doc = parser.parseFromString(data, 'text/html');
+                                var bodyText = doc.body.innerText.trim();
+                                window.alert(bodyText);
+                            });
+                } catch (error) {
+                    console.log(error);
+                }
+                var table = document.getElementById("groupsTable");
+                var newRow = table.insertRow(); // Insert at the last position
+                newRow.id = "row" + (table.rows.length + 1); // Set the ID for the row
+                console.log(newRow.id);
+
+                var cell1 = newRow.insertCell(0); // Insert at the first position
+                var cell2 = newRow.insertCell(1); // Insert at the second position
+                var cell3 = newRow.insertCell(2); // Insert at the third position
+
+                cell1.innerHTML = activityName;
+                cell2.innerHTML = "0";
+                cell3.innerHTML = "<button class='select-button' onclick=\"highlightRow('" + newRow.id + "')\">Select Activity</button>";
+
+                cell1.classList.add("groupName"); // Add a class to cell1
+                cell2.classList.add("memberCount"); // Add a class to cell2
+
+            }
+
+            function sortActivities() {
+                try {
+                    fetch('/ActivityEnrollmentSystem/filterAndSortServlet?filter=' + encodeURIComponent(false))
+                            .then(response => response.text())
+                            .then(data => {
+                                var parser = new DOMParser();
+                                var doc = parser.parseFromString(data, 'text/html');
+                                var bodyText = doc.body.innerText.trim().split('\n');
+                                var table = document.getElementById("groupsTable");
+                                var rows = table.getElementsByTagName("tr");
+
+                                // Start from the second row (skip the heading row)
+                                for (var i = rows.length - 1; i > 0; i--) {
+                                    table.deleteRow(i);
+                                }
+
+                                for (var i = 0; i < bodyText.length; i++) {
+                                    var newRow = table.insertRow(); // Insert at the last position
+                                    newRow.id = "row" + (table.rows.length + 1); // Set the ID for the row
+                                    console.log(newRow.id);
+
+                                    var activityName = bodyText[i].split(" ")[0];
+                                    var membersCount = bodyText[i].split(" ")[1];
+
+                                    var cell1 = newRow.insertCell(0); // Insert at the first position
+                                    var cell2 = newRow.insertCell(1); // Insert at the second position
+                                    var cell3 = newRow.insertCell(2); // Insert at the third position
+
+                                    cell1.innerHTML = activityName;
+                                    cell2.innerHTML = membersCount;
+                                    cell3.innerHTML = "<button class='select-button' onclick=\"highlightRow('" + newRow.id + "')\">Select Activity</button>";
+
+                                    cell1.classList.add("groupName"); // Add a class to cell1
+                                    cell2.classList.add("memberCount"); // Add a class to cell2
+                                }
+                            });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+
+            function filterActivities() {
+                try {
+                    fetch('/ActivityEnrollmentSystem/filterAndSortServlet?filter=' + encodeURIComponent(true))
+                            .then(response => response.text())
+                            .then(data => {
+                                var parser = new DOMParser();
+                                var doc = parser.parseFromString(data, 'text/html');
+                                var bodyText = doc.body.innerText.trim().split('\n');
+                                var table = document.getElementById("groupsTable");
+                                var rows = table.getElementsByTagName("tr");
+
+                                // Start from the second row (skip the heading row)
+                                for (var i = rows.length - 1; i > 0; i--) {
+                                    table.deleteRow(i);
+                                }
+
+                                for (var i = 0; i < bodyText.length; i++) {
+                                    var newRow = table.insertRow(); // Insert at the last position
+                                    newRow.id = "row" + (table.rows.length + 1); // Set the ID for the row
+                                    console.log(newRow.id);
+
+                                    var activityName = bodyText[i].split(" ")[0];
+                                    var membersCount = bodyText[i].split(" ")[1];
+
+                                    var cell1 = newRow.insertCell(0); // Insert at the first position
+                                    var cell2 = newRow.insertCell(1); // Insert at the second position
+                                    var cell3 = newRow.insertCell(2); // Insert at the third position
+
+                                    cell1.innerHTML = activityName;
+                                    cell2.innerHTML = membersCount;
+                                    cell3.innerHTML = "<button class='select-button' onclick=\"highlightRow('" + newRow.id + "')\">Select Activity</button>";
+
+                                    cell1.classList.add("groupName"); // Add a class to cell1
+                                    cell2.classList.add("memberCount"); // Add a class to cell2
+                                }
+                            });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+
+            function removeGroups() {
+                var highlightedElements = document.querySelectorAll('.highlight');
+                // Initialize an array to store the groupName text content
+                var groupNames = [];
+                highlightedElements.forEach(function (row) {
+                    // Find the element with the class 'groupName' inside the row
+                    var groupNameElement = row.querySelector('.groupName');
+
+                    // Store the text content of the groupName element
+                    if (groupNameElement) {
+                        groupNames.push(groupNameElement.textContent);
+                    }
+
+                    // Remove the row from the table
+                    row.remove();
+                });
+                var alertText = null;
+                for (var i = 0; i < groupNames.length; i++) {
+                    var groupToRemove = groupNames[i];
+                    try {
+                        fetch('/ActivityEnrollmentSystem/removeGroupServlet?groupToRemove=' + encodeURIComponent(groupToRemove))
+                                .then(response => response.text())
+                                .then(data => {
+                                    var parser = new DOMParser();
+                                    var doc = parser.parseFromString(data, 'text/html');
+                                    var bodyText = doc.body.innerText.trim();
+                                });
+                    } catch (error) {
+                        console.log(error);
+                    }
+                }
+                window.alert("Group(s) removed!");
+            }
+        </script>
+
+    </body>
+</html>

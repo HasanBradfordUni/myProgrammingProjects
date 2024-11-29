@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Add a linear gradient background to the body */
+            body {
+                height: 2000px; /* Adjust this value as needed */
+                background-image: url("https://img.freepik.com/free-photo/success-grass-soccer-ball-generated-by-ai_188544-9819.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713484800&semt=ais");
+                font-family: Arial, sans-serif;
+            }
+
+            body {
+                background-blend-mode: color-dodge;
+
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+            /* Style the navigation bar */
+            .navbar {
+                background-color: black;
+                overflow: hidden;
+                ;
+                color: white;
+                padding: 20px;
+                width: 100%; /* Make the navigation bar span the full width of the screen */
+                position: fixed; /* Make the navigation bar stay at the top of the screen */
+                top: 0; /* Position the navigation bar at the top of the screen */
+                left: 0; /* Position the navigation bar at the left of the screen */
+            }
+
+            /* Style the navigation links */
+            .navbar button {
+                padding: 10px 15px; /* Add padding to the button */
+                background-color: #000000; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+            }
+
+            .navbar button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+            }
+
+            /* Add styles for the buttons */
+            button {
+                padding: 10px 20px; /* Add padding to the button */
+                background-color: #4CAF50; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+            }
+
+            /* Add hover styles for the buttons */
+            button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+            }
+
+            /* Style the welcome section */
+            .welcome {
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* Style the news section */
+            .news {
+                padding: 20px;
+            }
+
+            /* Style the news articles */
+            .news article {
+                margin-bottom: 20px;
+            }
+
+            /* Style the footer */
+            .footer {
+                background-color: black;
+                text-align: center;
+                padding: 10px;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                transition: transform 1s ease-out;
+                color: white;
+                transition: transform 1s ease-out, display 1s ease-out; /* Add transition for display */
+                color: white;
+                display: none;  /* Hide the footer by default */
+
+            }
+            .scroll {
+                background-color: white;
+                padding: 200px 200px;
+                margin: 30px;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: left;
+                position: fixed;
+                top: 50;
+                bottom: 50;
+                width: 100%;
+                transition: 3s ease-in-out;
+            }
+            #scroll {
+                transition: transform 0.3s ease-out;
+                position: absolute;
+                top: 80vh; /* Position the scroll div below the screen */
+                background-color: white; /* Set the background color to white */
+                border: 1px solid black; /* Add a border */
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <div class="navbar">
+                <button onclick="location.href = 'index.html'">Home</button>
+                <button onclick="location.href = 'About.html'">About</button>
+                <button onclick="location.href = 'Contact.html'">Contact</button>
+                <button onclick="location.href = 'Activity_Groups.html'">Activity Groups</button>
+                <button onclick="location.href = 'Login.html'">Login</button>
+            </div>
+
+        </header>
+
+        <div id="scroll" class="scroll">
+            <h1>Learn More About Pi Society</h1>
+            <p>Lace Up for Glory: Join the Football Society!</p>
+            <p>Calling all football fanatics! Whether you're a Messi in the making or just enjoy a casual kickabout, the Football Society is your perfect pitch to connect and elevate your game.</p>       
+            <p>Sharpen Your Skills: From drills and friendly matches to competitive leagues (depending on the society's focus), we offer a variety of ways to hone your passing, shooting, and footwork. Become the maestro of the midfield or a defensive wall!</p>        
+            <p>Find Your Football Family: Bond with fellow footy enthusiasts, celebrate goals (and maybe learn from close calls!), and build lasting friendships on and off the field. The beautiful game brings beautiful people together!</p>        
+            <p>Open to All Levels: No matter your skill level, we welcome everyone who shares the passion for the sport. Beginners, come learn the ropes and develop your skills in a supportive environment. Veterans, share your knowledge and inspire the next generation of campus footballers!</p>        
+            <p>More Than Just Matches: We go beyond the final whistle. We organize social events to create a fun and inclusive atmosphere where you can connect with fellow members and share your love for the game.</p>        
+            <p>Ready to Take Your Game to the Next Level? Join the Football Society and experience the thrill of competition, camaraderie, and all things football! We'll help you develop your skills, celebrate victories (and learn from defeats!), and become part of a passionate community.</p>
+            <button onclick="callEnrollment()">Join Now</button>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer" class="footer">
+            <p>Contact us</p>
+            <p>Email: ubu@bradford.ac.uk</p>
+            <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+            <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+            <p>&copy; 2022 Our University</p>
+
+        </div>
+
+        <script>
+            function callEnrollment() {
+                const params = new URLSearchParams();
+                var activityGroup = "Football";
+                params.append('activityGroup', activityGroup);
+                const url = '/ActivityEnrollmentSystem/enrollmentServlet?' + params.toString();
+                try {
+                    fetch(url)
+                            .then(response => response.text())
+                            .then(data => {
+                                var parser = new DOMParser();
+                                var doc = parser.parseFromString(data, 'text/html');
+                                var bodyText = doc.body.innerText.trim();
+                                const firstLine = bodyText.split('\n')[0]; // Get the first line
+                                window.alert(firstLine);
+                                if (firstLine.includes("Not Logged in")) {
+                                    window.location.href = '/ActivityEnrollmentSystem/Login.html';
+                                }
+                            });
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+
+            var last_known_scroll_position = 0;
+            var ticking = false;
+
+            function doSomething(scroll_pos) {
+                var scroll = document.getElementById('scroll');
+                var footer = document.getElementById('footer');
+
+                // Move the scroll div in the opposite direction of the user's scrolling
+                scroll.style.transform = 'translateY(' + ((window.innerHeight / 5) - scroll_pos) + 'px)';
+
+                // Hide or show the footer
+                if (scroll_pos < document.body.scrollHeight - window.innerHeight) {
+                    footer.style.transform = 'translateY(100%)';
+                    footer.style.display = 'none'; // Hide the footer
+                } else {
+                    footer.style.transform = 'translateY(0)';
+                    footer.style.display = 'block'; // Show the footer
+                }
+            }
+
+            window.addEventListener('scroll', function (e) {
+                last_known_scroll_position = window.scrollY;
+
+                if (!ticking) {
+                    window.requestAnimationFrame(function () {
+                        doSomething(last_known_scroll_position);
+                        ticking = false;
+                    });
+
+                    ticking = true;
+                }
+            });
+        </script>
+
+
+
+    </body>
+</html>

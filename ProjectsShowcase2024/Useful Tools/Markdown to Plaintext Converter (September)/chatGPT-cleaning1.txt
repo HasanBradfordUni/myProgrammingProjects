@@ -1,0 +1,12 @@
+The correct answer is:
+
+a) do-while
+
+Explanation:
+
+A `do-while` loop is guaranteed to execute its body at least once because the loop condition is checked after the body of the loop has been executed. This ensures that the loop body will run at least one time, even if the condition is `false` on the first check. 
+
+In contrast:
+- `for` and `while` loops check the condition before entering the loop body, so if the condition is initially `false`, the loop body might not execute at all.
+- `switch` is not a loop construct; it's a control statement used for conditional branching.
+

@@ -1,0 +1,51 @@
+<!-- Registration.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+    body {
+    background-image: url("images\(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 12px;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    }
+    
+    p {
+        background-color: brown;
+        color: white;
+    }
+    
+    form label {
+        background-color: brown;
+        color: white;
+    }
+
+</style>
+</head>
+<body>
+    
+    <form action="/ActivityEnrollmentSystem/loginServlet" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="ubnumber">UB Number/Admin ID:</label><br>
+        <input type="text" id="ubnumber" name="ubnumber"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login"><br>
+    </form><br>
+    <button onclick="location.href='index.html'">Back</button>
+    <p>No login, <a href="Register.html">REGISTER</a> now</p>
+    
+</body>
+</html>

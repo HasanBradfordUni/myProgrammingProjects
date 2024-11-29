@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add a linear gradient background to the body */
+        body {
+            height: 2000px; /* Adjust this value as needed */
+            background: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-blend-mode: color-dodge;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            background-color: black;
+            overflow: hidden;;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Style the navigation links */
+        .navbar button {
+        padding: 10px 15px; /* Add padding to the button */
+        background-color: #000000; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+    .navbar button:hover {
+        background-color: #ddd; /* Change background color when hovered */
+        cursor: pointer; /* Change cursor to pointer when hovered */
+    }
+
+        /* Add styles for the buttons */
+        button {
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: #4CAF50; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+        /* Add hover styles for the buttons */
+        button:hover {
+            background-color: #ddd; /* Change background color when hovered */
+            cursor: pointer; /* Change cursor to pointer when hovered */
+        }
+
+        /* Style the welcome section */
+        .welcome {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            transition: transform 0.1s ease-out;
+            color: white;
+        }
+
+        #aboutwelcome {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        #aboutwelcome pre {
+            font-size: 25px;
+            font-family: Arial, sans-serif;
+        }
+
+        #aboutwelcome h2 {
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        .aboutgroups {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            
+        }
+
+        .box {
+        background-color: white;
+        border-radius: 10px;
+        width: 30%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        }
+
+        .box pre {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            text-align: center;
+        }
+        
+        .box h1 {
+            font-size: 23px;
+            font-family: Arial, sans-serif;
+            text-decoration: underline;
+        }
+
+        .box * {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='About.html'">About</button>
+        <button onclick="location.href='Contact.html'">Contact</button>
+        <button onclick="location.href='Activity_Groups.html'">Activity Groups</button>
+        <button onclick="location.href='Login.html'">Login</button>
+    </div>
+
+    <div id="aboutwelcome">
+        <p>Unlock the full potential of your university experience at the Univeristy of Bradford by diving into our 
+            diverse range of extracurricular activities! Whether you're loooking to expand your network, cultivate new
+            skills, or simply have fun, we have something for everyone. From sports teams and music clubs to volenteer
+            opportunities and academic docieties, our extracurricular programs are designed to enhance your personal 
+            and professional growth. Engage with like-minded peers, explore your passions, and create memories that 
+            will last a lifetime. Don't just study...thrive with us and make the most of your university journey!
+        </p>
+        <h2>Activity Groups</h2>
+    </div>
+
+    <div class="aboutgroups">
+        <div class="box">
+            <h1>Pisoc Society</h1>
+            <p>
+                Dive into Code with Pisoc!
+                Calling all computer enthusiasts! Whether you're a coding whiz or just starting your digital journey, Pisoc,
+                the University of Bradford CS Society, is your hub for all things tech.               
+                Level Up & Explore: Sharpen your skills with workshops, hackathons, and collaborative projects. 
+                Dive into diverse fields like web dev, AI, and cybersecurity.               
+                Network & Learn: Connect with like-minded peers, potential mentors, and future employers. 
+                Share your knowledge and learn from experienced members.                
+                Fun with Code: Coding challenges, game jams, and inspiring guest lectures keep learning exciting!               
+                Open to All: No prior experience needed, just bring your passion!            
+            </p>
+            <button onclick="location.href='learn_more_Pisoc.html'">Learn More</button>
+        </div>
+        <div class="box">
+            <h1>Football Society</h1>
+            <p>
+                Lace Up & Join the University of Bradford Footy Crew!
+                Calling all football fanatics! Whether you're a Messi in the making or just enjoy a 
+                casual kickabout, the [University Name] Football Society is your perfect pitch.
+                Sharpen Your Skills: Hone your passing, shooting, and footwork with drills, friendly matches, 
+                and even competitive leagues (depending on the society's focus).
+                Find Your Team: Bond with fellow football enthusiasts, build lasting friendships, and 
+                celebrate victories (and maybe learn from losses) together.
+                Fun for All Levels: No matter your skill level, we welcome everyone who shares the passion 
+                for the beautiful game. Come have a blast on the pitch!
+                Join the Football Society and take your love for football to the next level!            
+            </p>
+            <button onclick="location.href='learn_more_Football.html'">Learn More</button>
+        </div>
+        <div class="box">
+            <h1>Swimming Society</h1>
+            <p>
+                Make Waves and Friends with the [University Name] Swimming Society!
+                Calling all water lovers! Are you a seasoned swimmer looking to refine your strokes,
+                or a curious beginner just dipping your toes in?  The Swimming Society welcomes everyone to
+                dive into the world of aquatic fun and fitness.
+                Sharpen Your Skills: Our coached sessions cater to all levels. Whether you're mastering the 
+                butterfly or perfecting your front crawl, we'll help you refine your technique, build endurance, 
+                and achieve your swimming goals.
+                Find Your Fin Family: Join a supportive community of fellow aquatic enthusiasts! Bond with 
+                teammates over shared passion for the water, celebrate personal bests (and cheer each other on!), 
+                and build lasting friendships that extend beyond the pool.
+                More Than Just Laps: We offer a variety of activities, from casual morning swims to friendly competitions. 
+                We also host social events, ensuring there's something for everyone, both in and out of the water.
+                Ready to Make a Splash?  Join the Swimming Society and discover the joy of swimming in a 
+                supportive and friendly environment.            
+            </p>
+            <button onclick="location.href='learn_more_Swimming.html'">Learn More</button>
+        </div>
+
+    </div>
+    
+
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <p>Contact us</p>
+        <p>Email: ubu@bradford.ac.uk</p>
+        <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+        <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+        <p>&copy; 2022 Our University</p>
+        
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            var footer = document.getElementById('footer');
+            if (window.pageYOffset < document.body.scrollHeight - window.innerHeight) {
+                footer.style.transform = 'translateY(100%)';
+            } else {
+                footer.style.transform = 'translateY(0)';
+            }
+        };
+        </script>
+
+</body>
+</html>

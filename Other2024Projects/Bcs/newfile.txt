@@ -1,0 +1,36 @@
+seperateOfficers() – This method first initialised some variables for
+the reading of the <b>bcs.txt</b> file and then set up some regular expression patterns
+(Java Regular Expressions, Refsnes Data) for the processing of each line read 
+from <b>bcs.txt</b>. Next, the PrintWriter class was used to make each file available 
+for writing to. Each pattern was then matched to the word using the .matcher() 
+method of each pattern. (Java Regular Expressions, Refsnes Data) 
+The .find() method of each pattern was then used in if statements to check 
+which pattern matches with the UB number and therefore that corresponding file 
+was written to and that corresponding <i>officerCount</i> was incremented. 
+If it didn’t match any pattern, then a suitable message was outputted and the 
+line wasn’t appended to any of the files, nor any of the <i>officerCount</i> 
+attributes incremented. It did this until it reached the end of the file 
+(<i>line</i> equal to <b><i>null</i></b>) in a do-while loop. 
+It also included exception handling and error logging. 
+
+closeFiles() – This method firstly initialises an array of integers of 
+length 4 for the <i>officersCount</i> attributes. 
+Then it uses exception handling to close the files, catching and 
+logging any errors that arise from this. It also uses exception handling 
+to insert the <i>officersCount</i> attributes into their respective 
+positions in the array and to output them, catching and logging any 
+errors arising from this also. 
+Finally, it returns the <i>officersCountList</i>.
+
+The attribute storing the first outputFile as a file object for. 
+Used in openFiles() to open a new file.
+
+An integer storing the officers count for the year 2021. 
+This is incremented in separateOfficers() and displayed in closeFiles().
+
+The attribute storing the PrintWriter object for the logger file. 
+Used in openFiles() to open the logger file.
+
+The attribute storing the PrintWriter object for the first output file. 
+Used in separateOfficers() to allow writing to the output file for the year 2021 in conjunction with the outputFile1 attribute.
+

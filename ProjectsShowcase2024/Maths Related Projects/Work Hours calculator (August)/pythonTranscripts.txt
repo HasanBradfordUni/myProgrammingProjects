@@ -1,0 +1,1154 @@
+#Python transcripts
+
+#Transcript 1 taken from the Python Notebook BasicHoursCalculatorV1
+Enter how many hours you should be working: 35
+Is this either in:
+1. Hours per day
+2. Hours per week
+Enter either 1 or 2: 2
+Day 1 :
+Enter start time in 24 hour format (HH.MM): 09.20
+Enter end time in 24 hour format (HH.MM): 16.10
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 1 (in decimal format):
+6.33
+The total hours you have worked (so far) is:
+6.333333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 1 (in hours and minutes format):
+6.0 hours and 20.0 minutes
+The total hours you have worked (so far) is:
+6.0 hours and 20.0 minutes
+Do you want to add more days (Y/N): Y
+Day 2 :
+Enter start time in 24 hour format (HH.MM): 08.45
+Enter end time in 24 hour format (HH.MM): 16.30
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 2 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+13.583333333333332
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): Y
+Day 3 :
+Enter start time in 24 hour format (HH.MM): 09.00
+Enter end time in 24 hour format (HH.MM): 17.30
+Enter start time for lunch in 24 hour format (HH.MM): 13.30
+Enter end time for lunch in 24 hour format (HH.MM): 15.00
+The hours worked on Day 3 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+20.583333333333332
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): 09.00
+Day 4 :
+Enter start time in 24 hour format (HH.MM): 09.00
+Enter end time in 24 hour format (HH.MM): 16.30
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 4 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+27.583333333333332
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 5 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 15.00
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 5 (in decimal format):
+6.0
+The total hours you have worked (so far) is:
+33.58333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 6 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 17.00
+Enter start time for lunch in 24 hour format (HH.MM): 13.30
+Enter end time for lunch in 24 hour format (HH.MM): 14.00
+The hours worked on Day 6 (in decimal format):
+8.0
+The total hours you have worked (so far) is:
+41.58333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 7 :
+Enter start time in 24 hour format (HH.MM): 09.00
+Enter end time in 24 hour format (HH.MM): 16.30
+Enter start time for lunch in 24 hour format (HH.MM): 12.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.00
+The hours worked on Day 7 (in decimal format):
+6.5
+The total hours you have worked (so far) is:
+48.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 7 (in hours and minutes format):
+6.0 hours and 30.0 minutes
+The total hours you have worked (so far) is:
+48.0 hours and 5.0 minutes
+Do you want to add more days (Y/N): y
+Day 8 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 17.00
+Enter start time for lunch in 24 hour format (HH.MM): 13.45
+Enter end time for lunch in 24 hour format (HH.MM): 15.15
+The hours worked on Day 8 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+55.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): Y
+Day 9 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 16.00
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 9 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+62.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 10 :
+Enter start time in 24 hour format (HH.MM): 08.45
+Enter end time in 24 hour format (HH.MM): 16.30
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 10 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+69.33333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 10 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+69.0 hours and 20.0 minutes
+Do you want to add more days (Y/N): y
+Day 11 :
+Enter start time in 24 hour format (HH.MM): 09.00
+Enter end time in 24 hour format (HH.MM): 16.00
+Enter start time for lunch in 24 hour format (HH.MM): 13.10
+Enter end time for lunch in 24 hour format (HH.MM): 13.40
+The hours worked on Day 11 (in decimal format):
+6.5
+The total hours you have worked (so far) is:
+75.83333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? N
+N
+Do you want to add more days (Y/N): y
+Day 12 :
+Enter start time in 24 hour format (HH.MM): 08.40
+Enter end time in 24 hour format (HH.MM): 16.35
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 12 (in decimal format):
+7.42
+The total hours you have worked (so far) is:
+83.25
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 12 (in hours and minutes format):
+7.0 hours and 25.0 minutes
+The total hours you have worked (so far) is:
+83.0 hours and 15.0 minutes
+Do you want to add more days (Y/N): Y
+Day 13 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 17.10
+Enter start time for lunch in 24 hour format (HH.MM): 13.45
+Enter end time for lunch in 24 hour format (HH.MM): 15.15
+The hours worked on Day 13 (in decimal format):
+7.17
+The total hours you have worked (so far) is:
+90.41666666666667
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 13 (in hours and minutes format):
+7.0 hours and 10.0 minutes
+The total hours you have worked (so far) is:
+90.0 hours and 25.0 minutes
+Do you want to add more days (Y/N): y
+Day 14 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 16.20
+Enter start time for lunch in 24 hour format (HH.MM): 13.00
+Enter end time for lunch in 24 hour format (HH.MM): 13.30
+The hours worked on Day 14 (in decimal format):
+7.33
+The total hours you have worked (so far) is:
+97.75
+Do you wish to view the hours in hours and minutes format (Y/N)? N
+N
+Do you want to add more days (Y/N): y
+Day 15 :
+Enter start time in 24 hour format (HH.MM): 09.05
+Enter end time in 24 hour format (HH.MM): 16.35
+Enter start time for lunch in 24 hour format (HH.MM): 13.33
+Enter end time for lunch in 24 hour format (HH.MM): 14.03
+The hours worked on Day 15 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+104.75
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 16 :
+Enter start time in 24 hour format (HH.MM): 08.30
+Enter end time in 24 hour format (HH.MM): 16.05
+Enter start time for lunch in 24 hour format (HH.MM): 13.20
+Enter end time for lunch in 24 hour format (HH.MM): 13.50
+The hours worked on Day 16 (in decimal format):
+7.08
+The total hours you have worked (so far) is:
+111.83333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 16 (in hours and minutes format):
+7.0 hours and 5.0 minutes
+The total hours you have worked (so far) is:
+111.0 hours and 50.0 minutes
+Do you want to add more days (Y/N): y
+Day 17 :
+Enter start time in 24 hour format (HH.MM): 09.00
+Enter end time in 24 hour format (HH.MM): 16.45
+Enter start time for lunch in 24 hour format (HH.MM): 12.15
+Enter end time for lunch in 24 hour format (HH.MM): 12.45
+The hours worked on Day 17 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+119.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 17 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+119.0 hours and 5.0 minutes
+Do you want to add more days (Y/N): n
+In total you worked 119.08 hours in 17 days
+The average hours per day was about 7.0 hours
+Currently, you have done 0.0 hours and 5.0 minutes overtime
+
+#Transcript 2 taken from the Python file basicHoursCalculatorV5 on 27/08/24
+Enter how many hours you should be working: 35
+Is this either in:
+1. Hours per day
+2. Hours per week
+Enter either 1 or 2: 2
+Day 1 :
+Enter the working times for the day:
+Start 09:20, End 16:10, Lunch 13:00-13:30
+The hours worked on Day 1 (in decimal format):
+6.33
+The total hours you have worked (so far) is:
+6.333333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 1 (in hours and minutes format):
+6.0 hours and 20.0 minutes
+The total hours you have worked (so far) is:
+6.0 hours and 20.0 minutes
+Do you want to add more days (Y/N): y
+Day 2 :
+Enter the working times for the day:
+Start 08:45, End 16:30, Lunch 13:00-13:30
+The hours worked on Day 2 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+13.583333333333332
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 2 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+13.0 hours and 35.0 minutes
+Do you want to add more days (Y/N): Y
+Day 3 :
+Enter the working times for the day:
+Start 09:00, End 17:30, Lunch 13:30-15:00
+The hours worked on Day 3 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+20.583333333333332
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 4 :
+Enter the working times for the day:
+Start 09:00, End 16:30, Lunch 13:00-13:30
+The hours worked on Day 4 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+27.583333333333332
+Do you wish to view the hours in hours and minutes format (Y/N)? N
+N
+Do you want to add more days (Y/N): Y
+Day 5 :
+Enter the working times for the day:
+Start 08:30, End 15:00, Lunch 13:00-13:30
+The hours worked on Day 5 (in decimal format):
+6.0
+The total hours you have worked (so far) is:
+33.58333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): Y
+Day 6 :
+Enter the working times for the day:
+Start 08:30, End 17:00, Lunch 13:30-14:00
+The hours worked on Day 6 (in decimal format):
+8.0
+The total hours you have worked (so far) is:
+41.58333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 7 :
+Enter the working times for the day:
+Start 09:00, End 16:30, Lunch 12:00-13:00
+The hours worked on Day 7 (in decimal format):
+6.5
+The total hours you have worked (so far) is:
+48.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 7 (in hours and minutes format):
+6.0 hours and 30.0 minutes
+The total hours you have worked (so far) is:
+48.0 hours and 5.0 minutes
+Do you want to add more days (Y/N): y
+Day 8 :
+Enter the working times for the day:
+Start 08:30, End 17:00, Lunch 13:45-15:15
+The hours worked on Day 8 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+55.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? N
+N
+Do you want to add more days (Y/N): Y
+Day 9 :
+Enter the working times for the day:
+Start 08:30, End 16:00, Lunch 13:00-13:30
+The hours worked on Day 9 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+62.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): Y
+Day 10 :
+Enter the working times for the day:
+Start 08:45, End 16:30, Lunch 13:00-13:30
+The hours worked on Day 10 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+69.33333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 10 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+69.0 hours and 20.0 minutes
+Do you want to add more days (Y/N): Y
+Day 11 :
+Enter the working times for the day:
+Start 09:00, End 16:00, Lunch 13:10-13:40
+The hours worked on Day 11 (in decimal format):
+6.5
+The total hours you have worked (so far) is:
+75.83333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 11 (in hours and minutes format):
+6.0 hours and 30.0 minutes
+The total hours you have worked (so far) is:
+75.0 hours and 50.0 minutes
+Do you want to add more days (Y/N): Y
+Day 12 :
+Enter the working times for the day:
+Start 08:40, End 16:35, Lunch 13:00-13:30
+The hours worked on Day 12 (in decimal format):
+7.42
+The total hours you have worked (so far) is:
+83.25
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 12 (in hours and minutes format):
+7.0 hours and 25.0 minutes
+The total hours you have worked (so far) is:
+83.0 hours and 15.0 minutes
+Do you want to add more days (Y/N): Y
+Day 13 :
+Enter the working times for the day:
+Start 08:30, End 17:10, Lunch 13:45-15:15
+The hours worked on Day 13 (in decimal format):
+7.17
+The total hours you have worked (so far) is:
+90.41666666666667
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 13 (in hours and minutes format):
+7.0 hours and 10.0 minutes
+The total hours you have worked (so far) is:
+90.0 hours and 25.0 minutes
+Do you want to add more days (Y/N): y
+Day 14 :
+Enter the working times for the day:
+Start 08:30, End 16:20, Lunch 13:00-13:30
+The hours worked on Day 14 (in decimal format):
+7.33
+The total hours you have worked (so far) is:
+97.75
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 14 (in hours and minutes format):
+7.0 hours and 20.0 minutes
+The total hours you have worked (so far) is:
+97.0 hours and 45.0 minutes
+Do you want to add more days (Y/N): y
+Day 15 :
+Enter the working times for the day:
+Start 09:05, End 16:35, Lunch 13:33-14:03
+The hours worked on Day 15 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+104.75
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): Y
+Day 16 :
+Enter the working times for the day:
+Start 08:30, End 16:05, Lunch 13:20-13:50
+The hours worked on Day 16 (in decimal format):
+7.08
+The total hours you have worked (so far) is:
+111.83333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 16 (in hours and minutes format):
+7.0 hours and 5.0 minutes
+The total hours you have worked (so far) is:
+111.0 hours and 50.0 minutes
+Do you want to add more days (Y/N): Y
+Day 17 :
+Enter the working times for the day:
+Start 09:00, End 16:45, Lunch 12:15-12:45
+The hours worked on Day 17 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+119.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 17 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+119.0 hours and 5.0 minutes
+Do you want to add more days (Y/N): Y
+Day 18 :
+Enter the working times for the day:
+Start 08:30, End 17:00, Lunch 13:30-15:00
+The hours worked on Day 18 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+126.08333333333333
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 19 :
+Enter the working times for the day:
+Start 08:25, End 16:00, Lunch 13:00-13:30
+The hours worked on Day 19 (in decimal format):
+7.08
+The total hours you have worked (so far) is:
+133.16666666666666
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 19 (in hours and minutes format):
+7.0 hours and 5.0 minutes
+The total hours you have worked (so far) is:
+133.0 hours and 10.0 minutes
+Do you want to add more days (Y/N): y
+Day 20 :
+Enter the working times for the day:
+Start 09:00, End 16:40, Lunch 13:35-14:05
+The hours worked on Day 20 (in decimal format):
+7.17
+The total hours you have worked (so far) is:
+140.33333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 20 (in hours and minutes format):
+7.0 hours and 10.0 minutes
+The total hours you have worked (so far) is:
+140.0 hours and 20.0 minutes
+Do you want to add more days (Y/N): y
+Day 21 :
+Enter the working times for the day:
+Start 08:30, End 16:15, Lunch 13:00-13:30
+The hours worked on Day 21 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+147.58333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 21 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+147.0 hours and 35.0 minutes
+Do you want to add more days (Y/N): Y
+Day 22 :
+Enter the working times for the day:
+Start 08:45, End 16:30, Lunch 13:00-13:30
+The hours worked on Day 22 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+154.83333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 23 :
+Enter the working times for the day:
+Start 08:30, End 17:05, Lunch 13:30-15:00
+The hours worked on Day 23 (in decimal format):
+7.08
+The total hours you have worked (so far) is:
+161.91666666666666
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 23 (in hours and minutes format):
+7.0 hours and 5.0 minutes
+The total hours you have worked (so far) is:
+161.0 hours and 55.0 minutes
+Do you want to add more days (Y/N): y
+Day 24 :
+Enter the working times for the day:
+Start 08:30, End 16:00, Lunch 13:00-13:30
+The hours worked on Day 24 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+168.91666666666666
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 25 :
+Enter the working times for the day:
+Start 09:00, End 16:30, Lunch 13:45-14:05
+The hours worked on Day 25 (in decimal format):
+7.17
+The total hours you have worked (so far) is:
+176.08333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): y
+Day 26 :
+Enter the working times for the day:
+Start 08:30, End 16:00, Lunch 13:00-13:30
+The hours worked on Day 26 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+183.08333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 26 (in hours and minutes format):
+7.0 hours and 0.0 minutes
+The total hours you have worked (so far) is:
+183.0 hours and 5.0 minutes
+Do you want to add more days (Y/N): Y
+Day 27 :
+Enter the working times for the day:
+Start 08:45, End 16:30, Lunch 13:00-13:30
+The hours worked on Day 27 (in decimal format):
+7.25
+The total hours you have worked (so far) is:
+190.33333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+The hours worked on Day 27 (in hours and minutes format):
+7.0 hours and 15.0 minutes
+The total hours you have worked (so far) is:
+190.0 hours and 20.0 minutes
+Do you want to add more days (Y/N): Y
+Day 28 :
+Enter the working times for the day:
+Start 08:30, End 17:00, Lunch 13:30-15:00
+The hours worked on Day 28 (in decimal format):
+7.0
+The total hours you have worked (so far) is:
+197.33333333333331
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Do you want to add more days (Y/N): Y
+Day 29 :
+Enter the working times for the day:
+Start 08:50, End 16:30, Lunch 13:30-13:50
+The hours worked on Day 29 (in decimal format):
+7.33
+The total hours you have worked (so far) is:
+204.66666666666666
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+The hours worked on Day 29 (in hours and minutes format):
+7.0 hours and 20.0 minutes
+The total hours you have worked (so far) is:
+204.0 hours and 40.0 minutes
+Do you want to add more days (Y/N): n
+In total you worked 204.67 hours in 29 days
+The average hours per day was about 7.0 hours
+Currently, you have done 1.0 hours and 40.0 minutes overtime
+
+#Transcript 3 taken from the Python file basicHoursCalculatorV5 on 04/09/24
+Welcome the Akhtar Hasan work hours calculator!
+Please choose one of the following options below for insertion format:
+            1. Basic app
+            2. Advanced app (GUI version)
+            3. Upload text file
+          Please indicate with your choice below
+Enter a number (1,2 or 3) for your choice: 3
+You have chosen to use the file upload method
+First enter how many hours you should be working: 35
+Is this either in:
+1. Hours per day
+2. Hours per week
+Enter either 1 or 2: 2
+Please note that the file has to be a plaintext file (.txt)
+What is the path of your work hours file? "C:\Users\HasanAkh1\OneDrive - bradford.gov.uk\Word docs\WorkHours-History.txt"
+The contents of the work hours file is as follows:
+Start 09:20, End 16:10, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 09:00, End 17:30, Lunch 13:30-15:00
+
+Start 09:00, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 15:00, Lunch 13:00-13:30
+
+Start 08:30, End 17:00, Lunch 13:30-14:00
+
+Start 09:00, End 16:30, Lunch 12:00-13:00
+
+Start 08:30, End 17:00, Lunch 13:45-15:15
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 09:00, End 16:00, Lunch 13:10-13:40
+
+Start 08:40, End 16:35, Lunch 13:00-13:30
+
+Start 08:30, End 17:10, Lunch 13:45-15:15
+
+Start 08:30, End 16:20, Lunch 13:00-13:30
+
+Start 09:05, End 16:35, Lunch 13:33-14:03
+
+Start 08:30, End 16:05, Lunch 13:20-13:50
+
+Start 09:00, End 16:45, Lunch 12:15-12:45
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:25, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:40, Lunch 13:35-14:05
+
+Start 08:30, End 16:15, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 17:05, Lunch 13:30-15:00
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:45-14:05
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:50, End 16:30, Lunch 13:30-13:50
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:30-14:00
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:40, End 16:20, Lunch 13:00-13:30
+
+Start 09:25, End 17:00, Lunch 13:30-14:00
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:30-14:00
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:30, End 15:30, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:30-14:00
+
+Start 08:30, End 17:30, Lunch 12:00-15:00
+In total you worked 280.42 hours in 40 days
+The average hours per day was about 7.0 hours
+Do you wish to view the hours in hours and minutes format (Y/N)? Y
+Y
+In total you have worked:
+280.0 hours and 25.0 minutes
+Currently, you have done 0.0 hours and 25.0 minutes overtime
+
+#Transcript 4 taken from the Python file basicHoursCalculatorV5 on 10/09/24
+Welcome the Akhtar Hasan work hours calculator!
+Please choose one of the following options below for insertion format:
+            1. Basic app
+            2. Advanced app (GUI version)
+            3. Upload text file
+          Please indicate with your choice below
+Enter a number (1,2 or 3) for your choice: 3
+You have chosen to use the file upload method
+First enter how many hours you should be working: 35
+Is this either in:
+1. Hours per day
+2. Hours per week
+Enter either 1 or 2: 2
+Please note that the file has to be a plaintext file (.txt)
+What is the path of your work hours file? "C:\Users\HasanAkh1\OneDrive - bradford.gov.uk\Word docs\WorkHours-History.txt"
+The contents of the work hours file is as follows:
+Start 09:20, End 16:10, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 09:00, End 17:30, Lunch 13:30-15:00
+
+Start 09:00, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 15:00, Lunch 13:00-13:30
+
+Start 08:30, End 17:00, Lunch 13:30-14:00
+
+Start 09:00, End 16:30, Lunch 12:00-13:00
+
+Start 08:30, End 17:00, Lunch 13:45-15:15
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 09:00, End 16:00, Lunch 13:10-13:40
+
+Start 08:40, End 16:35, Lunch 13:00-13:30
+
+Start 08:30, End 17:10, Lunch 13:45-15:15
+
+Start 08:30, End 16:20, Lunch 13:00-13:30
+
+Start 09:05, End 16:35, Lunch 13:33-14:03
+
+Start 08:30, End 16:05, Lunch 13:20-13:50
+
+Start 09:00, End 16:45, Lunch 12:15-12:45
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:25, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:40, Lunch 13:35-14:05
+
+Start 08:30, End 16:15, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 17:05, Lunch 13:30-15:00
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:45-14:05
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:50, End 16:30, Lunch 13:30-13:50
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:30-14:00
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:40, End 16:20, Lunch 13:00-13:30
+
+Start 09:25, End 17:00, Lunch 13:30-14:00
+
+Start 08:30, End 16:15, Lunch 13:10-13:45
+
+Start 08:50, End 16:30, Lunch 13:05-13:45
+
+Start 08:40, End 17:10, Lunch 13:00-14:30
+
+Start 08:30, End 15:30, Lunch 13:00-13:30
+
+Start 08:40, End 16:10, Lunch 13:00-13:30
+In total you worked 274.58 hours in 39 days
+The average hours per day was about 7.0 hours
+Do you wish to view the hours in hours and minutes format (Y/N)? y
+Y
+In total you have worked:
+274.0 hours and 35.0 minutes
+Currently, you have done 1.0 hours and 35.0 minutes overtime
+
+#Transcript 5 on 10/09/24 at about 12:35 taken from the Python Notebook AiTestingAgent
+Requirement already satisfied: transformers in /usr/local/lib/python3.10/dist-packages (4.44.2)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from transformers) (3.15.4)
+Requirement already satisfied: huggingface-hub<1.0,>=0.23.2 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.24.6)
+Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from transformers) (24.1)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (6.0.2)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (2024.5.15)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from transformers) (2.32.3)
+Requirement already satisfied: safetensors>=0.4.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.4.4)
+Requirement already satisfied: tokenizers<0.20,>=0.19 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.19.1)
+Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.10/dist-packages (from transformers) (4.66.5)
+Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (2024.6.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub<1.0,>=0.23.2->transformers) (4.12.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (3.8)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (2024.8.30)
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Welcome to the Akhtar Hasan official software testing agent!
+To begin with, enter your project name/details: j
+Next enter the specific question you want to test: How can I add a key agency?
+Next please upload the associated PDF file for the test:
+No file chosen Upload widget is only available when the cell has been executed in the current browser session. Please rerun this cell to enable.
+Error: Please upload a PDF file.
+Next please upload the associated PNG (screenshot) file for the test:
+No file chosen Upload widget is only available when the cell has been executed in the current browser session. Please rerun this cell to enable.
+Error: Please upload a PNG file.
+Please wait while the AI agent generates the evaluation of your software test...
+The expected result (from the pdf) is: Children’s Services
+EHM User Guide –
+Title – Adding Key Agencies
+1. Contents
+1. CONTENTS 1
+2. PURPOSE 2
+3. OBJECTIVES 2
+4. AUDIENCE 2
+5. STEP BY STEP GUIDE 2
+6. BEST PRACTICE INFORMATION 4
+7. POLICIES & PROCEDURES 6
+8. ADDITIONAL INFORMATION 6
+9. FURTHER SUPPORT & CONTACTS 62. Purpose
+This document is to provide specific user guidance and examples of best practice for use of
+the EHM system to add key agencies
+3. Objectives
+This user guide will demonstrate step by step how to:
+ Add key agencies
+4. Audience
+The user guide is aimed at any EHM users that needs to add a key agency
+5. Step by Step Guide
+On the person’s demographics’ page click Involvements
+Click new key agency
+Document Title: Adding Key agencies Page 2 of 6
+Document Status: This is a controlled document. Whilst this document may be printed the electronic version
+posted on SharePoint is the controlled copy. Any printed copies of the document are not controlledUsing the drop down box to choose the type – i.e Health visitor, school, GP
+Press on the blue people to search either person
+Press all professionals
+Click back or reset to clear the boxes, then search for the person using the “wild card” % sign
+Click search and then click on the correct person, it will take you to this screen, press confirm
+Document Title: Adding Key agencies Page 3 of 6
+Document Status: This is a controlled document. Whilst this document may be printed the electronic version
+posted on SharePoint is the controlled copy. Any printed copies of the document are not controlledEnter start date Tick other people that are in the episode you
+want to copy the key agency to
+Press create.
+Repeat the steps again to add another key agency.
+6. Best Practice Information
+It is important that you understand the responsibilities and expectations of your role and that
+you know how to access and use the tools and resources that you will use in your work with
+children young people and their families.
+Document Title: Adding Key agencies Page 4 of 6
+Document Status: This is a controlled document. Whilst this document may be printed the electronic version
+posted on SharePoint is the controlled copy. Any printed copies of the document are not controlledBradford Practice Model
+Bradford Children’s Services has adopted a Practice Model which is based on: -
+A commitment to delivering high quality children’s services that are effective and have a
+positive impact on children, young people and families lives in Bradford.
+A vision to ensure that children are given the best start in life to be safe, healthy, happy
+and resilient.
+An aim to consistently deliver services with care and compassion to strengthen families
+through a positive working relationship.
+A mission to always put children at the heart of all we do.
+Our operating Practice Model underpins the ethos of our work with children, young people
+and their families and takes into account their experiences. The model utilises the
+strengths based approach of Trauma Informed Practice delivered through a Signs of
+Safety Approach; both of these approaches allow relationships to flourish.
+We are committed to building positive relationships with our children, young people and
+families recognising and reinforcing their strengths and their community networks. Our
+Practice Model is based on: -
+Signs of Safety (SoS): a strengths based, safety orientated approach which focuses on
+family strengths to stabilise and strengthen a child’s and families’ situation. It is a way of
+working in partnership recognising that families are the experts of their own lives but still
+allows for robust assessment of risks, strengths and safety supporting families to identify
+their own networks of support.
+Relationship Based Practice: the importance of relationships is increasingly recognised
+as being central to successful outcomes for our children, young people and their families.
+Relationships are the means through which we will work collaboratively with people to
+establish a shared understanding of what needs to be done and by whom, in order for any
+concerns or problems about a child’s well-being to be resolved.
+Document Title: Adding Key agencies Page 5 of 6
+Document Status: This is a controlled document. Whilst this document may be printed the electronic version
+posted on SharePoint is the controlled copy. Any printed copies of the document are not controlled7. Policies & Procedures
+For further information on policies and procedures linked to the user guide please visit TRiX:
+Bradford Children's Services Online Procedures (proceduresonline.com)
+8. Additional Information
+9. Further Support & Contacts
+For further support please contact
+EHM Quality and Support
+Telephone: 07582 108267
+Email: EHMQuality.Support@bradford.gov.uk
+Document Title: Adding Key agencies Page 6 of 6
+Document Status: This is a controlled document. Whilst this document may be printed the electronic version
+posted on SharePoint is the controlled copy. Any printed copies of the document are not controlled
+The actual result (from the screenshot) is: Q. How can | add a key agency? x
+
+Ask A Follow Up
+
++, Generative Al is experimental
+
+To add a key agency, you need to go to the person's demographics page and click
+on "Involvements". «
+
+{ https:/storage.cloud.google.co.
+‘Adding Key agencies,
+
+Document Title: Adding Key agencies
+Page 2 of 6 Document Status: This is.
+
+Then, click on "New Key Agency". v
+
+You can also add key agencies from the "Involvements" section of the left-hand
+menu. If the key agency is not already listed, you can add it manually. You can
+also copy key agencies from other episodes. «
+
+(G https://storage.cloud.google.co (BB https:/storage.cloud.google.co.
+Creating a Contact - IFD ‘Adding Key agencies
+Document Title: Creating a Contact - Document Title: Adding Key agencies
+
+IFD Page 5 of 12 Document Status: Page 4 of 6 Document Status: This is.
+
+The generated summary is:  this document is intended to provide specific user guidance and examples of best practice for use of the eHM system to add key agencies. 
+ the user guide is aimed at any eHM users that needs to add a key agency.    
+ # 1_#1 _ # 1_#1 _ =    # 1 1.25 in.125 in.25 in    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1_#1 _ =    # 1 1.25 in.25 in.25 in 
+The full prompt that the AI is using: The screenshot png is the outcome of a test of the AI search
+        and the pdf document contains the information that should be pulled to the search to generate the AI summary.
+
+        The text from screenshot is as follows:
+To add a key agency, you need to go to the person's demographics page and click on "Involvements".
+
+Then, click on "New Key Agency".
+
+You can also add key agencies from the "Involvements" section of the left-hand
+menu. If the key agency is not already listed, you can add it manually. You can
+also copy key agencies from other episodes.
+
+        The text from the pdf is as follows:
+On the person’s demographics’ page click Involvements
+Click new key agency
+Using the drop down box to choose the type – i.e Health visitor, school, GP
+Press on the blue people to search either person
+Press all professionals
+Click back or reset to clear the boxes, then search for the person using the “wild card” % sign
+Click search and then click on the correct person, it will take you to this screen, press confirm
+Press create.
+Repeat the steps again to add another key agency.
+
+        Can you provide a brief summary of how well the search worked for the following question for my software testing report?
+
+        The question for the evaluation/summary is as follows:
+How can I add a key agency?
+##
+ Evaluation of AI Search for "How can I add a key agency?"
+
+The AI search performed
+ well in retrieving relevant information for the query "How can I add a key agency?".
+ 
+
+**Strengths:**
+
+* **Accuracy:** The search accurately identified the relevant sections in both the screenshot and the PDF document. 
+* **Completeness:** The
+ search retrieved all the necessary steps involved in adding a key agency. 
+* **Clarity:** The retrieved information is presented in a clear and concise manner. 
+*
+ **User-friendliness:** The search provides multiple ways to access the information, through both visual and textual formats. 
+
+**Weaknesses:**
+
+* **Limited Context:** The search results lack context and may not be easily understood by users unfamiliar with the specific
+ software or terminology used. 
+* **Lack of Explanation:** While the steps are listed, the search results do not provide an explanation for why each step is necessary. 
+
+**Overall:** 
+
+The AI search successfully identified and presented
+ the relevant information needed to add a key agency. However, additional improvements could be made to provide more context and explanation for the user. 
+
+**Recommendations:**
+
+* Include a brief introduction to the task of adding a key agency, explaining its purpose and importance within the software. 
+* Provide a more detailed explanation for each
+ step, explaining its purpose and how it contributes to the overall process. 
+* Consider incorporating interactive elements, such as a video tutorial, to further enhance user understanding. 
+
+By addressing these recommendations, the AI search can provide a more comprehensive and user-friendly experience for users seeking information on how to add a key agency.
+ 
+
+
+## Evaluation of AI Search for "How can I add a key agency?"
+
+The AI search performed well in retrieving relevant information for the query "How can I add a key agency?". 
+
+**Strengths:**
+
+* **Accuracy:** The search accurately identified the relevant sections in both the screenshot and the PDF document. 
+* **Completeness:** The search retrieved all the necessary steps involved in adding a key agency. 
+* **Clarity:** The retrieved information is presented in a clear and concise manner. 
+* **User-friendliness:** The search provides multiple ways to access the information, through both visual and textual formats. 
+
+**Weaknesses:**
+
+* **Limited Context:** The search results lack context and may not be easily understood by users unfamiliar with the specific software or terminology used. 
+* **Lack of Explanation:** While the steps are listed, the search results do not provide an explanation for why each step is necessary. 
+
+**Overall:** 
+
+The AI search successfully identified and presented the relevant information needed to add a key agency. However, additional improvements could be made to provide more context and explanation for the user. 
+
+**Recommendations:**
+
+* Include a brief introduction to the task of adding a key agency, explaining its purpose and importance within the software. 
+* Provide a more detailed explanation for each step, explaining its purpose and how it contributes to the overall process. 
+* Consider incorporating interactive elements, such as a video tutorial, to further enhance user understanding. 
+
+By addressing these recommendations, the AI search can provide a more comprehensive and user-friendly experience for users seeking information on how to add a key agency. 
+
+#Transcript 6 taken from the Python file basicHoursCalculatorV5-final on 11/09/24
+Welcome the Akhtar Hasan work hours calculator!
+Please choose one of the following options below for insertion format:
+            1. Basic app
+            2. Advanced app (GUI version)
+            3. Upload text file
+          Please indicate with your choice below
+Enter a number (1,2 or 3) for your choice: 3
+You have chosen to use the file upload method
+First enter how many hours you should be working: 35
+Is this either in:
+1. Hours per day
+2. Hours per week
+Enter either 1 or 2: 2
+Please note that the file has to be a plaintext file (.txt)
+What is the path of your work hours file? "C:\Users\HasanAkh1\OneDrive - bradford.gov.uk\Word docs\WorkHours-History.txt"
+The contents of the work hours file is as follows:
+Start 09:20, End 16:10, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 09:00, End 17:30, Lunch 13:30-15:00
+
+Start 09:00, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 15:00, Lunch 13:00-13:30
+
+Start 08:30, End 17:00, Lunch 13:30-14:00
+
+Start 09:00, End 16:30, Lunch 12:00-13:00
+
+Start 08:30, End 17:00, Lunch 13:45-15:15
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 09:00, End 16:00, Lunch 13:10-13:40
+
+Start 08:40, End 16:35, Lunch 13:00-13:30
+
+Start 08:30, End 17:10, Lunch 13:45-15:15
+
+Start 08:30, End 16:20, Lunch 13:00-13:30
+
+Start 09:05, End 16:35, Lunch 13:33-14:03
+
+Start 08:30, End 16:05, Lunch 13:20-13:50
+
+Start 09:00, End 16:45, Lunch 12:15-12:45
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:25, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:40, Lunch 13:35-14:05
+
+Start 08:30, End 16:15, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 17:05, Lunch 13:30-15:00
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:45-14:05
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 08:45, End 16:30, Lunch 13:00-13:30
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:50, End 16:30, Lunch 13:30-13:50
+
+Start 08:30, End 16:00, Lunch 13:00-13:30
+
+Start 09:00, End 16:30, Lunch 13:30-14:00
+
+Start 08:30, End 17:00, Lunch 13:30-15:00
+
+Start 08:40, End 16:20, Lunch 13:00-13:30
+
+Start 09:25, End 17:05, Lunch 13:30-14:00
+
+Start 08:30, End 16:15, Lunch 13:10-13:45
+
+Start 08:50, End 16:30, Lunch 13:05-13:45
+
+Start 08:40, End 17:10, Lunch 13:00-14:30
+
+Start 08:30, End 15:30, Lunch 13:00-13:30
+
+Start 08:40, End 16:20, Lunch 13:00-13:40
+
+Start 08:30, End 17:30, Lunch 12:00-15:15
+In total you worked 280.42 hours in 40 days
+The average hours per day was about 7.0 hours
+Do you wish to view the hours in hours and minutes format (Y/N)? n
+N
+Currently, you have done 0.0 hours and 25 minutes overtime

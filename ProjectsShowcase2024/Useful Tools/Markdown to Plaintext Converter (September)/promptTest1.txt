@@ -1,0 +1,34 @@
+Here is a structured AI prompt to generate text with various formatting features like headings, bold, italic, and inline code:
+
+---
+
+Prompt:
+
+"Generate a document about [topic of choice] that includes Markdown-style formatting. The document should have the following characteristics:
+
+1. Use headings of various levels with  for section titles.
+2. Use bold text to emphasize important keywords or phrases.
+3. Use italic text for subtle emphasis on certain words.
+4. Include inline code snippets using backticks    to show code or command examples.
+5. The document should follow an informative or instructional structure with appropriate formatting.
+
+Example output structure:
+
+
+ Main Heading
+
+Some introductory text about the topic. This text should explain the subject in italic for slight emphasis.
+
+ Subheading 1
+
+Here is a bold statement to highlight a key point. You can also add some inline code like this to explain technical aspects.
+
+ Subheading 2
+
+More details can be found in this section. Sometimes, combining bold and italic text is useful for stronger emphasis."
+"
+
+---
+
+This prompt instructs the AI to create text using specific formatting features, providing a clear template for what the output should look like.
+

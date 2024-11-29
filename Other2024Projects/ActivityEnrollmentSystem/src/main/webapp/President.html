@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Add a linear gradient background to the body */
+            body {
+                margin: 0;
+                padding: 0;
+                height: 2000px; /* Adjust this value as needed */
+                background-color: white;
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Style the navigation bar */
+            .navbar {
+                background-color: black;
+                overflow: hidden;
+                ;
+                color: white;
+                padding: 20px;
+                width: 100%; /* Make the navigation bar span the full width of the screen */
+                position: static; /* Make the navigation bar stay at the top of the screen */
+                top: 0; /* Position the navigation bar at the top of the screen */
+                left: 0; /* Position the navigation bar at the left of the screen */
+            }
+
+            /* Style the navigation links */
+            .navbar button {
+                padding: 10px 15px; /* Add padding to the button */
+                background-color: #000000; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+                transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            }
+
+            .navbar button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+                color: #303030
+            }
+
+
+            /* Add styles for the buttons */
+            button {
+                padding: 10px 20px; /* Add padding to the button */
+                background-color: #4CAF50; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+            }
+
+            /* Add hover styles for the buttons */
+            button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+            }
+
+            /* Style the welcome section */
+            .welcome {
+                background-color: black;
+                color: white;
+                width: 100%;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 200px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .welcome pre {
+                font-size: 20px;
+                font-family: Arial, sans-serif;
+            }
+
+            .welcome-image {
+                width: 5%;
+                height: auto;
+            }
+
+            /* Style the footer */
+            .footer {
+                background-color: black;
+                text-align: center;
+                padding: 10px;
+                width: 100%;
+                transition: transform 0.2s ease-out;
+                color: white;
+                margin-top: auto;
+            }
+
+            .controlbuttons {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-bottom: 20px;
+            }
+
+            .controlbuttons-button {
+                background-color: white;
+                border: none;
+                color: black;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            .controls {
+                text-align: center;
+                padding: 20px;
+            }
+
+            .bold-text {
+                font-weight: bold;
+            }
+
+            .controls h3 {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+            .activity-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                width: 100%;
+            }
+
+            .activity {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .arrow-button {
+                background-color: white;
+                border: none;
+                color: black;
+                padding: 10px 20px;
+                font-size: 50px;
+                cursor: pointer;
+            }
+
+            .input-group {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .input-group input, .input-group textarea {
+                width: 1300px; /* Adjust as needed */
+            }
+
+            .input-group label {
+                font-weight: bold;
+            }
+            
+            table {
+                width: 100%;
+                text-align: left;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            table th, table td {
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <div class="navbar">
+                <button onclick="location.href = 'index.html'">Home</button>
+                <button onclick="location.href = 'About.html'">About</button>
+                <button onclick="location.href = 'Contact.html'">Contact</button>
+                <button onclick="location.href = 'Activity_Groups.html'">Activity Groups</button>
+                <button onclick="location.href = 'Login.html'">Login</button>
+            </div>
+
+        </header>
+
+
+
+        <!-- Welcome section -->
+        <section class="welcome">
+            <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/02/100_computing_banner_desktop.jpg" alt="Left Image" class="welcome-image">
+            <h2>Welcome Activity Group President</h2>
+            <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/02/100_computing_banner_desktop.jpg" alt="Right Image" class="welcome-image">
+        </section>
+
+        <div class="controls">
+            <p class="bold-text">Here you can add/edit/remove activities and view the members count for your group</p>
+            <h3>ACTIVITIES</h3>
+            <p>Below are listed all currently active activities for your group, you can add, edit or remove using the buttons below</p>
+        </div>
+
+        <div class="controlbuttons">
+            <button class="control-button">Add Activity</button>
+            <button class="control-button">Edit Activity</button>
+            <button class="control-button">Remove current Activity</button>
+        </div>
+
+        <div class="activity-section">
+            <button class="arrow-button" onclick="previousActivity()">←</button>
+            <div class="activity">
+                <h2 id="activity-title">Activity</h2>
+                <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/02/100_computing_banner_desktop.jpg" alt="Activity Image" id="activity-image">
+                <div class="input-group">
+                    <label for="activity-name">Activity Name:</label>
+                    <input type="text" id="activity-name" oninput="updateActivityTitle()" placeholder="Enter activity name">
+                </div>
+                <p id="current-activity-deadline">Current activity deadline is: </p>
+                <div class="input-group">
+                    <label for="activity-deadline">Activity Deadline:</label>
+                    <input type="date" id="activity-deadline">
+                </div>
+                <div class="input-group">
+                    <label for="activity-description">Activity Description:</label>
+                    <textarea id="activity-description" placeholder="Enter activity description"></textarea>
+                </div>
+            </div>
+            <button class="arrow-button" onclick="nextActivity()">→</button>
+        </div>
+
+        <h2>Group members:</h2>
+
+        <button onclick="retrieveMembers()">Retrieve Group Members</button>
+
+        Total Count: <p id="totalCount"></p>
+
+        <table id="membersTable">
+            <!-- Table headers -->
+            <tr>
+                <th>Student ID</th>
+                <th>Group Name</th>
+            </tr>
+            <!-- Table rows -->
+            <tr id="row1">
+                <td class="studentID">Tawseef</td>
+                <td class="groupName">Pisoc</td>
+            </tr>
+            <tr id="row2">
+                <td class="studentID">Hasan</td>
+                <td class="groupName">Pisoc</td>
+            </tr>
+            <tr id="row3">
+                <td class="studentID">Shabbir</td>
+                <td class="groupName">Pisoc</td>
+            </tr>
+        </table>
+
+        <!-- Footer -->
+        <div id="footer" class="footer">
+            <p>Contact us</p>
+            <p>Email: ubu@bradford.ac.uk</p>
+            <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+            <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+            <p>University of Bradford 2024</p>
+
+        </div>
+
+        <script>
+            function updateActivityTitle() {
+                var activityName = document.getElementById('activity-name').value;
+                document.getElementById('activity-title').textContent = 'Activity: ' + activityName;
+            }
+
+            function previousActivity() {
+                // Add code here to switch to the previous activity
+
+            }
+
+            function nextActivity() {
+                // Add code here to switch to the next activity
+            }
+
+            function retrieveMembers() {
+                try {
+                    fetch('/ActivityEnrollmentSystem/retrieveGroupMembersServlet')
+                            .then(response => response.text())
+                            .then(data => {
+                                var parser = new DOMParser();
+                                var doc = parser.parseFromString(data, 'text/html');
+                                var bodyText = doc.body.innerText.trim().split("\n");
+                                var table = document.getElementById("membersTable");
+                                var rows = table.getElementsByTagName("tr");
+
+                                // Start from the second row (skip the heading row)
+                                for (var i = rows.length - 1; i > 0; i--) {
+                                    table.deleteRow(i);
+                                }
+                                
+                                for (var i = 0; i < bodyText.length - 1; i++) {
+                                    var newRow = table.insertRow(); // Insert at the last position
+                                    newRow.id = "row" + (table.rows.length + 1); // Set the ID for the row
+
+                                    var cell1 = newRow.insertCell(0); // Insert at the first position
+                                    var cell2 = newRow.insertCell(1); // Insert at the second position
+
+                                    cell1.innerHTML = bodyText[i];
+                                    cell2.innerHTML = "Pisoc";
+
+                                    cell1.classList.add("studentID"); // Add a class to cell1
+                                    cell2.classList.add("groupName"); // Add a class to cell2
+                                }
+                                var last = bodyText.length - 1;
+                                var totalCount = bodyText[last];
+                                document.getElementById("totalCount").textContent = totalCount;
+                                window.alert("Total members in your group are: "+totalCount);
+                            });
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+
+        </script>
+
+
+    </body>
+</html>

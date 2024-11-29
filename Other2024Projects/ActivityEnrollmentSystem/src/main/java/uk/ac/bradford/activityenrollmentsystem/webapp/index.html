@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add a linear gradient background to the body */
+        body {
+            height: 2000px; /* Adjust this value as needed */
+            background-image: url('https://images.pexels.com/photos/50713/football-ball-sport-soccer-50713.jpeg?cs=srgb&dl=pexels-pixabay-50713.jpg&fm=jpg');
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            background-color: black;
+            overflow: hidden;;
+            color: white;
+            padding: 20px;
+            width: 100%; /* Make the navigation bar span the full width of the screen */
+            position: static; /* Make the navigation bar stay at the top of the screen */
+            top: 0; /* Position the navigation bar at the top of the screen */
+            left: 0; /* Position the navigation bar at the left of the screen */
+        }
+
+        /* Style the navigation links */
+        .navbar button {
+        padding: 10px 15px; /* Add padding to the button */
+        background-color: #000000; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .navbar button:hover {
+        background-color: #ddd; /* Change background color when hovered */
+        cursor: pointer; /* Change cursor to pointer when hovered */
+        color: #303030
+    }
+
+
+        /* Add styles for the buttons */
+        button {
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: #4CAF50; /* Set the background color */
+        border: none; /* Remove the border */
+        color: white; /* Set the text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove the underline */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s; /* Add a transition effect */
+        cursor: pointer; /* Change the cursor to a hand icon */
+        border-radius: 12px; /* Add rounded corners */
+    }
+
+        /* Add hover styles for the buttons */
+        button:hover {
+            background-color: #ddd; /* Change background color when hovered */
+            cursor: pointer; /* Change cursor to pointer when hovered */
+        }
+
+        /* Style the welcome section */
+        .welcome {
+            padding: 20px;
+            text-align: center;           
+        }
+
+        .welcome pre {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            transition: transform 0.2s ease-out;
+            color: white;
+            margin-top: auto;
+        }
+
+        #accessButtons {
+    position: absolute;
+    top: 100px; /* Position the buttons below the navbar */
+    left: 0; /* Position the buttons at the right of the screen */
+}
+
+#accessButtons button {
+    padding: 10px 20px; /* Add padding to the buttons */
+    background-color: #303030; /* Set the background color */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove the underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Add a transition effect */
+    cursor: pointer; /* Change the cursor to a hand icon */
+    border-radius: 12px; /* Add rounded corners */
+}
+
+#accessButtons button:hover {
+    background-color: #ddd; /* Change background color when hovered */
+    cursor: pointer; /* Change cursor to pointer when hovered */
+}
+
+#fontSizeForm {
+    position: absolute;
+    top: 150px; /* Position the form below the accessButtons div */
+    left: 0; /* Position the form at the right of the screen */
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.upcoming-events {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.event {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.05); /* Scale the event card on hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */    
+}
+
+.event a {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove the underline */
+    display: block; /* Make the link take up the full space of the div */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    <div class="navbar">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='About.html'">About</button>
+        <button onclick="location.href='Contact.html'">Contact</button>
+        <button onclick="location.href='Activity_Groups.html'">Activity Groups</button>
+        <button onclick="location.href='Login.html'">Login</button>
+    </div>
+
+</header>
+
+    <div id="accessButtons">
+        <button>Enable screen reader</button>
+        <button>Dark mode</button>
+    </div>
+    <form id="fontSizeForm">
+        <label for="fontSize">Adjust font size:</label>
+        <input type="range" id="fontSize" name="fontSize" min="10" max="50">
+    </form>
+
+    <!-- Welcome section -->
+    <section class="welcome">
+        <h2>Welcome to the university social page! </h2>
+        <pre>Here you can find information about the different activity groups available at the university and their upcoming events.</pre>
+        
+    </section>
+
+    <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+        <div class="box">
+            <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/02/100_computing_banner_desktop.jpg" alt="Image 1" style="width: 200px; height: 135px;">
+            <p>Join our growing PiSoc social</p>
+            <p>which is a great way to meet</p> 
+            <p>people, make friends and make</p> 
+            <p>learning more fun. </p>
+            
+            <button onclick="location.href='learn_more_Pisoc.html'">Learn more</button>
+        </div>
+        <div class="box">
+            <img src="https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/6235ea7fbaf601e8d3980228_boy-kicking-ball-on-football-field-2021-09-24-03-47-56-utc-min-min.jpg" alt="Image 2" style="width: 200px; max-height: 200px;">
+            <p>Want to be part of a team and</p>
+            <p>play football? Join our football</p>
+            <p>group and have fun!</p>
+            <button onclick="location.href='learn_more_Football.html'">Learn more</button>
+        </div>
+        <div class="box">
+            <img src="https://www.truro-penwith.ac.uk/app/uploads/2023/01/Netball-Academy-2.jpg" alt="Image 3" style="width: 200px; max-height: 200px;">
+            <p>The best of the best at netball</p>
+            <p>can be found here. Join our</p>
+            <p>netball group and experience</p>
+            <p>the thrill yourself!.</p>
+            <button onclick="location.href='learn_more_Netball.html'">Learn more</button>
+        </div>
+        <div class="box">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/female-swimmer-at-the-swimming-pool-royalty-free-image-1568376387.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=2048:*" alt="Image 4" style="width: 200px; max-height: 135px;">
+            <p>Love swimming? Why not consider</p>
+            <p>joining our swimming group and</p>
+            <p>meet new friends, improve your</p>
+            <p>skills and be part of one of</p>
+            <p>the best groups in the area!</p>
+            <button onclick="location.href='learn_more_Swimming.html'">Learn more</button>
+        </div>
+    </div>
+
+    <div class="upcoming-events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <a href="learn_more_Pisoc.html">
+                <img src="https://tedxwinterpark.com/wp-content/uploads/2020/05/TEDxEvento-682b9876.jpg" alt="Image for Pisoc" style="width: 20%; height: auto;">
+                <h3>Pisoc Society</h3>
+                <p>Date: 21st September 2024</p>
+                <p>Calling All Pisoc Coders: TEDx Trip Alert!</p>
+                <p>Attention Pisoc members! Gear up for an epic adventure - we're heading to a mind-blowing TEDx Talk focused on the future of Computer Science!</p>                    
+                <p>Here's why you can't miss this:</p>                    
+                <p>Inspiring Talks: Immerse yourself in cutting-edge ideas and innovations from leading minds in the tech world. Get ready to have your perspective on CS shattered and rebuilt!</p>
+                <p>Network with Fellow Enthusiasts: Mingle with other passionate coders, exchange ideas, and spark new collaborations. Maybe you'll even meet your future coding partner!</p>
+                <p>Pisoc Power Trip: Bond with your Pisoc crew on a journey filled with learning, laughter, and shared excitement for the future of CS.</p>
+                <p>Exclusive Perks (Optional): We might have some additional exciting activities planned - think meet-and-greets, workshops, or behind-the-scenes access (depending on specifics of the event).</p>
+                <p>Spots are limited! Sign up now to secure your place and join Pisoc on this unforgettable journey into the future of CS.</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Football.html">               
+                <img src="https://img.freepik.com/free-photo/success-grass-soccer-ball-generated-by-ai_188544-9819.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713484800&semt=ais" alt="Image for Football" style="width: 20%; height: auto;">
+                <h3>Football Society</h3>
+                <p>Date: 26th January 2025</p>
+                <p>City Smackdown! Bradford vs. Huddersfield - Get Your Game Face On!</p>
+                <p>Calling all Bradford Bulls! ⚽️ The University of Bradford Football Society is gearing up for a fierce clash against the Huddersfield University Football Club, and we need YOU in the stands!</p>                    
+                <p>Mark your calendars:</p>                    
+                <p>Date: 26th January 2025</p>
+                <p>Time: 4pm</p>
+                <p>Location: Bradford Stadium</p>
+                <p>Why you can't miss it:</p>                    
+                <p>Bradford Bragging Rights: Let's roar with pride and cheer our Bradford boys to victory! Your energy will be their fuel as they battle for dominance on the pitch.</p>
+                <p>University Showdown: Witness a classic rivalry unfold! This isn't just a football match; it's a battle for city supremacy.</p>
+                <p>More Than Just the Game: This is your chance to connect with fellow Bradford students, celebrate our university spirit, and create memories that will last a lifetime.</p>
+                <p>Post-Match Festivities (Optional): We might have a post-match social event planned for some friendly banter and refreshments (details to come!). Come celebrate (or commiserate) with your fellow Bradford supporters!</p>
+                <p>Spread the Word: Round up your friends, classmates, and anyone who loves a good football showdown! The louder the Bradford contingent, the stronger our boys play!</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Netball.html">
+                <img src="https://www.truro-penwith.ac.uk/app/uploads/2023/01/Netball-Academy-2.jpg" alt="Image for Netball" style="width: 20%; height: auto;">
+                <h3>Netball Society</h3>
+                <p>Date: 20th September 2024</p>
+                <p>Calling All Netball Netheads: Join the Netball Society!</p>
+                <p>Calling all netball enthusiasts, aspiring shooters, and anyone who loves a good team sport! The Netball Society is hosting a Recruitment Day, and we want YOU to join our dynamic squad!</p>                   
+                <p>No experience necessary! Whether you're a seasoned center court commander or a complete beginner curious about the game, we welcome everyone with open arms (and hopefully, sharp passes)!</p>                   
+                <p>Here's what you can expect:</p>                   
+                <p>Fun Drills & Games: Get a taste of netball with some exciting drills and friendly games designed to introduce you to the fundamentals and showcase the fast-paced action of the sport.</p>
+                <p>Meet the Team: Chat with our friendly and welcoming members, ask questions, and get a feel for the supportive and fun atmosphere we cultivate.</p>
+                <p>Learn from the Best: Our experienced players will be on hand to offer tips, answer your questions, and help you get started on your netball journey.</p>
+                <p>Free Giveaways (Optional): We might have some awesome netball goodies up for grabs to fuel your newfound passion (details to come!).</p>
+                <p>Ready to unleash your inner netball star? Come join us for our Recruitment Day and discover the thrill of competition, teamwork, and all things netball!</p>
+                <p>Don't miss this chance to be part of something special!</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Swimming.html">
+                <img src="https://www.essa-schoolswimming.com/images/slider/slide-5.jpg" alt="Image for Swimming" style="width: 20%; height: auto;">
+                <h3>Swimming Society</h3>
+                <p>Date: 18th September 2024</p>
+                <p>Dive into a Movie Night with the Swimming Society!</p>
+                <p>Calling all water warriors! ‍♀️ Take a break from the pool and join the [University Name] Swimming Society for a Movie Night filled with aquatic adventures!</p>                    
+                <p>Ready to make a splash with some cinematic fun?</p>                    
+                <p>Dive into a Classic: We'll be screening a beloved movie with a swimming theme (movie title to be revealed soon!). Get ready for some laughter, thrills, or maybe even a touch of underwater inspiration.</p>
+                <p>Relax and Recharge: Forget about lap times and perfect your popcorn technique. This is a chance to unwind with fellow swimming enthusiasts, share stories, and enjoy some quality downtime.</p>
+                <p>Bring Your Squad: Whether it's your teammates, training buddies, or anyone who loves a good movie, feel free to bring them along for the aquatic cinematic experience!</p>
+                <p>Snacks & Fun (Optional): We might have some movie night essentials like popcorn and drinks on hand (details to come!). Come prepared for a night of swimming-themed entertainment and good company.</p>
+                <p>Escape the ordinary and join us for a fin-tastic movie night!</p>                   
+                <p>Don't miss this chance to bond with your fellow swimmers!</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Darts.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Darts_in_a_dartboard.jpg" alt="Image for Darts" style="width: 20%; height: auto;">
+                <h3>Darts Society</h3>
+                <p>Date: 15th November 2024</p>
+                <p>Calling All Wannabe Robin Hoods: Darts Society's Bullseye Bonanza!</p>
+                <p>Calling all students, pub enthusiasts, and anyone curious about the art of the throw! The [University Name] Darts Society is hosting a Bullseye Bonanza: Open Darts Tournament, and we want YOU to join the fun!</p>                   
+                <p>No experience necessary! Whether you've never held a dart or are a secret bullseye assassin, this is your chance to give darts a try in a friendly and welcoming environment.</p>                   
+                <p>Here's what awaits you:</p>                   
+                <p>Friendly Competition: Compete in a casual tournament format with fellow dart enthusiasts (or complete beginners!). It's all about having fun, learning the ropes, and maybe even hitting that elusive triple twenty.</p>
+                <p>Learn from the Best: Our experienced society members will be on hand to offer tips, answer your questions, and help you perfect your throwing technique.</p>
+                <p>Prizes & Glory (Optional): We might have some awesome prizes for the top players (details to come!), but the real reward is the bragging rights and newfound love for the game.</p>
+                <p>Food & Drinks (Optional): Depending on the venue, some refreshments and snacks might be available to fuel your competitive spirit (details to come!).</p>
+                <p>Ready to test your aim and have a blast? Come join us for the Bullseye Bonanza and discover the camaraderie, skill, and surprising fun of darts!</p>                   
+                <p>Entry Fee: £5 (includes darts and tournament participation)</p>                   
+                <p>Don't miss this chance to unleash your inner dart champion!</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Tennis.html">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/61290485e59b1a3c399d34e7/0x0.jpg?format=jpg&crop=2699,1519,x0,y0,safe&height=900&width=1600&fit=bounds" alt="Image for Tennis" style="width: 20%; height: auto;">
+                <h3>Tennis Society</h3>
+                <p>Date: TO BE ANNOUNCED!</p>
+                <p>Calling All Baseline Bashers: Prepare for a Smashing Tennis Trip!</p>
+                <p>Attention all tennis enthusiasts! Gear up for an unforgettable adventure - the Tennis Society is heading on a trip (Destination to be revealed soon!) and we want YOU to join our winning crew!</p>                   
+                <p>Get ready to:</p>                    
+                <p>Sharpen Your Skills: Challenge yourself with coached sessions and friendly matches against players of similar skill levels (details to come). Elevate your game and create lasting memories on the court.</p>
+                <p>Explore a New Place: Combine your love for tennis with the excitement of exploring a new city/destination (details to be revealed soon!). Immerse yourself in the local culture and create unforgettable off-court experiences.</p>
+                <p>Bond with Your Teammates: Build lasting friendships with fellow tennis enthusiasts. Share your passion for the game, enjoy social activities, and create a supportive and fun-filled environment.</p>
+                <p>More Than Just Tennis (Optional): We might have some exciting activities planned beyond the court, depending on the destination (details to come!). Think sightseeing, cultural experiences, or even post-match celebrations.</p>
+                <p>Spots are limited! Stay tuned for the big reveal - destination, dates, and application details coming soon!</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Basketball.html">
+                <img src="https://static.ffx.io/images/$zoom_0.099%2C$multiply_0.7725%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_2/t_crop_custom/q_86%2Cf_auto/62e04e006fe36928c4231033f9daf717688bdc56" alt="Image for Basketball" style="width: 20%; height: auto;">
+                <h3>Basketball Society</h3>
+                <p>Date: 7th July 2024</p>
+                <p>Calling All Ballers! Celtics vs Mavericks Live with Pisoc!</p>
+                <p>Attention hoopsters! Gear up for an epic night of NBA action, Basketball Society is taking you courtside (almost!) to witness a clash of titans: Celtics vs Mavericks LIVE!</p>                    
+                <p>Get ready to witness basketball royalty in action!</p>                    
+                <p>Celtics vs. Mavericks: Witness the rivalry unfold as two powerhouse teams battle it out on the hardwood. Watch Luka Doncic's dazzling playmaking go head-to-head with Jayson Tatum's scoring prowess. It's a matchup you won't want to miss!</p>
+                <p>Pisoc Pride: Rock your green (or maybe some Dirk Nowitzki throwback jerseys?) and cheer alongside fellow Pisoc members. Feel the electrifying atmosphere as we create a sea of Pisoc spirit in the stands!</p>
+                <p>More Than Just the Game (Optional): We might have some pre-game or post-game activities planned depending on the location (details to come!). Think skills challenges, trivia contests, or just hanging out and celebrating the beautiful game with fellow ballers.</p>
+                <p>Spots are limited! Don't miss this chance to witness NBA stars live and create unforgettable memories with the Pisoc Society. Sign up now to secure your place!</p>
+            </a>
+        </div>
+        <div class="event">
+            <a href="learn_more_Bowling.html">
+                <img src="https://images.squarespace-cdn.com/content/v1/5e9e0dfba94cde48f0501a9c/81b3c8b5-e650-4a70-a02d-2d5c0f555fb2/Bowling_Pins.jpg" alt="Image for Bowling" style="width: 20%; height: auto;">
+                <h3>Bowling Society</h3>
+                <p>Date: 12th October 2024</p>
+                <p>Strike Up Some Charity with the Bowling Society!</p>
+                <p>Calling all pin-crushers and strike specialists with a heart of gold! The Bowling Society is hosting a Charity Bowling Extravaganza to raise funds for the British Heart Foundation, a cause we deeply care about.</p>                    
+                <p>Join us for an afternoon of fun, friendly competition, and making a difference!</p>                    
+                <p>Strike a Pose for Charity: Test your bowling skills in a casual tournament format (details to come). Compete with friends, hone your aim, and all while supporting a worthy cause.</p>
+                <p>Every Pin Counts: There will be prizes for top bowlers (details to come!), but the real reward is knowing you're making a positive impact.</p>
+                <p>Family-Friendly Fun (Optional): This event is open to everyone, so feel free to bring your friends, family, or even that bowling rival you've been meaning to settle the score with!</p>
+                <p>Fundraising Frenzy: We'll have additional fundraising activities throughout the event (details to come!). Think raffles, silent auctions, or even a "donate-a-dollar-per-strike" challenge!</p>
+                <p>Ready to roll some strikes for a good cause? Join the Bowling Society for an afternoon of fun, competition, and supporting the British Heart Foundation. Let's knock down some pins and raise some serious funds together!</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <p>Contact us</p>
+        <p>Email: ubu@bradford.ac.uk</p>
+        <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+        <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+        <p>University of Bradford 2024</p>
+        
+    </div>
+
+    
+
+</body>
+</html>

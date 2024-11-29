@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Add a linear gradient background to the body */
+            body {
+                height: 2000px; /* Adjust this value as needed */
+                background-image: url("https://www.essa-schoolswimming.com/images/slider/slide-5.jpg");
+                font-family: Arial, sans-serif;
+            }
+
+            body {
+                background-blend-mode: color-dodge;
+
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+            /* Style the navigation bar */
+            .navbar {
+                background-color: black;
+                overflow: hidden;
+                ;
+                color: white;
+                padding: 20px;
+                width: 100%; /* Make the navigation bar span the full width of the screen */
+                position: fixed; /* Make the navigation bar stay at the top of the screen */
+                top: 0; /* Position the navigation bar at the top of the screen */
+                left: 0; /* Position the navigation bar at the left of the screen */
+            }
+
+            /* Style the navigation links */
+            .navbar button {
+                padding: 10px 15px; /* Add padding to the button */
+                background-color: #000000; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+            }
+
+            .navbar button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+            }
+
+            /* Add styles for the buttons */
+            button {
+                padding: 10px 20px; /* Add padding to the button */
+                background-color: #4CAF50; /* Set the background color */
+                border: none; /* Remove the border */
+                color: white; /* Set the text color */
+                text-align: center; /* Center the text */
+                text-decoration: none; /* Remove the underline */
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s; /* Add a transition effect */
+                cursor: pointer; /* Change the cursor to a hand icon */
+                border-radius: 12px; /* Add rounded corners */
+            }
+
+            /* Add hover styles for the buttons */
+            button:hover {
+                background-color: #ddd; /* Change background color when hovered */
+                cursor: pointer; /* Change cursor to pointer when hovered */
+            }
+
+            /* Style the welcome section */
+            .welcome {
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* Style the news section */
+            .news {
+                padding: 20px;
+            }
+
+            /* Style the news articles */
+            .news article {
+                margin-bottom: 20px;
+            }
+
+            /* Style the footer */
+            .footer {
+                background-color: black;
+                text-align: center;
+                padding: 10px;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                transition: transform 1s ease-out;
+                color: white;
+                transition: transform 1s ease-out, display 1s ease-out; /* Add transition for display */
+                color: white;
+                display: none;  /* Hide the footer by default */
+
+            }
+            .scroll {
+                background-color: white;
+                padding: 200px 200px;
+                margin: 30px;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: left;
+                position: fixed;
+                top: 50;
+                bottom: 50;
+                width: 100%;
+                transition: 3s ease-in-out;
+            }
+            #scroll {
+                transition: transform 0.3s ease-out;
+                position: absolute;
+                top: 80vh; /* Position the scroll div below the screen */
+                background-color: white; /* Set the background color to white */
+                border: 1px solid black; /* Add a border */
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <div class="navbar">
+                <button onclick="location.href = 'index.html'">Home</button>
+                <button onclick="location.href = 'About.html'">About</button>
+                <button onclick="location.href = 'Contact.html'">Contact</button>
+                <button onclick="location.href = 'Activity_Groups.html'">Activity Groups</button>
+                <button onclick="location.href = 'Login.html'">Login</button>
+            </div>
+
+        </header>
+
+        <div id="scroll" class="scroll">
+            <h1>Learn More About Pi Society</h1>
+            <p>Make Waves and Memories with the Swimming Society!</p>
+            <p>Calling all water warriors! Whether you're a seasoned swimmer looking to refine your strokes or a curious beginner just dipping your toes in (pun intended!), the Swimming Society welcomes you to dive into a world of aquatic fun and fitness.</p>        
+            <p>Sharpen Your Technique: Hone your skills with coached sessions designed for all levels. Master new drills, perfect your form, and improve your endurance in a supportive and encouraging environment.</p>       
+            <p>Find Your Fin Family: Join a vibrant community of fellow aquatic enthusiasts! Bond with teammates over a shared love for the water, celebrate personal bests (and cheer each other on!), and build lasting friendships that extend beyond the pool.</p>        
+            <p>More Than Just Laps: We offer a variety of activities to keep things exciting! From casual morning swims to friendly competitions (depending on the society's focus), we cater to various preferences. We also host social events, ensuring there's something for everyone, both in and out of the water.</p>       
+            <p>Ready to Make a Splash?  Join the Swimming Society and discover the joy of swimming in a supportive and friendly environment. We'll help you achieve your aquatic goals, make new friends, and have a blast along the way!</p>
+            <button onclick="callEnrollment()">Join Now</button>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer" class="footer">
+            <p>Contact us</p>
+            <p>Email: ubu@bradford.ac.uk</p>
+            <p>Tel: +44(0)1274 23 3300 - Monday to Friday 10am till 3pm</p>
+            <p>Address: University of Bradford Union, Student Central, University of Bradford, Richmond Road, Bradford, West Yorkshire, BD7 1DP</p>
+            <p>&copy; 2022 Our University</p>
+
+        </div>
+
+        <script>
+            function callEnrollment() {
+                const params = new URLSearchParams();
+                var activityGroup = "Swimming";
+                params.append('activityGroup', activityGroup);
+                const url = '/ActivityEnrollmentSystem/enrollmentServlet?' + params.toString();
+                try {
+                    fetch(url)
+                            .then(response => response.text())
+                            .then(data => {
+                                var parser = new DOMParser();
+                                var doc = parser.parseFromString(data, 'text/html');
+                                var bodyText = doc.body.innerText.trim();
+                                const firstLine = bodyText.split('\n')[0]; // Get the first line
+                                window.alert(firstLine);
+                                if (firstLine.includes("Not Logged in")) {
+                                    window.location.href = '/ActivityEnrollmentSystem/Login.html';
+                                }
+                            });
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+
+            var last_known_scroll_position = 0;
+            var ticking = false;
+
+            function doSomething(scroll_pos) {
+                var scroll = document.getElementById('scroll');
+                var footer = document.getElementById('footer');
+
+                // Move the scroll div in the opposite direction of the user's scrolling
+                scroll.style.transform = 'translateY(' + ((window.innerHeight / 5) - scroll_pos) + 'px)';
+
+                // Hide or show the footer
+                if (scroll_pos < document.body.scrollHeight - window.innerHeight) {
+                    footer.style.transform = 'translateY(100%)';
+                    footer.style.display = 'none'; // Hide the footer
+                } else {
+                    footer.style.transform = 'translateY(0)';
+                    footer.style.display = 'block'; // Show the footer
+                }
+            }
+
+            window.addEventListener('scroll', function (e) {
+                last_known_scroll_position = window.scrollY;
+
+                if (!ticking) {
+                    window.requestAnimationFrame(function () {
+                        doSomething(last_known_scroll_position);
+                        ticking = false;
+                    });
+
+                    ticking = true;
+                }
+            });
+        </script>
+
+
+
+    </body>
+</html>

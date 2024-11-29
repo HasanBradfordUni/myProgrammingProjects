@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: UserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in UserTest
+UserTest -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.length()" because "this.password" is null
+	at uk.ac.bradford.activityenrollmentsystem.User.<init>(User.java:26)
+	at UserTest.setUpClass(UserTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

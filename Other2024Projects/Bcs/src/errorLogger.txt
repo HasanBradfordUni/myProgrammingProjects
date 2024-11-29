@@ -1,0 +1,18 @@
+2024-03-10T10:03:24.237367900Z[Europe/London]
+java.io.FileNotFoundException: bc.txt (The system cannot find the file specified)
+2024-03-10T10:03:24.243892500Z[Europe/London]
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedReader.readLine()" because "this.inputFile" is null
+2024-03-10T10:03:24.243892500Z[Europe/London]
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedReader.close()" because "this.inputFile" is null
+2024-03-10T10:09:01.320839700Z[Europe/London]
+java.io.FileNotFoundException: bc.txt (The system cannot find the file specified)
+2024-03-10T10:09:01.324851600Z[Europe/London]
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedReader.readLine()" because "this.inputFile" is null
+2024-03-10T10:09:01.325601700Z[Europe/London]
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedReader.close()" because "this.inputFile" is null
+2024-03-10T11:07:22.009829Z[Europe/London]
+java.io.FileNotFoundException: bc.txt (The system cannot find the file specified)
+2024-03-10T11:07:22.013844700Z[Europe/London]
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedReader.readLine()" because "this.inputFile" is null
+2024-03-10T11:07:22.013844700Z[Europe/London]
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedReader.close()" because "this.inputFile" is null
